@@ -1,8 +1,4 @@
----
-{
-  "title": "链表-概览",
-}
----
+### 概念
 
 用一组任意存储的单元来存储线性表的数据元素。一个对象存储着本身的值和下一个元素的地址。
 
@@ -18,7 +14,7 @@
 > 主要是对链表基本概念和特性的应用，如果基础概念掌握牢靠，此类问题即可迎刃而解
 
 - [从尾到头打印链表](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.html)
-- [删除链表中的节点](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9or%E9%87%8D%E5%A4%8D%E7%9A%84%E8%8A%82%E7%82%B9.html#%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9) 
+- [删除链表中的节点](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9or%E9%87%8D%E5%A4%8D%E7%9A%84%E8%8A%82%E7%82%B9.html#%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9)
 - [反转链表](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.html)
 - [复杂链表的复制](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.html)
 
@@ -40,7 +36,7 @@
 对于单链表，因为我们只能在一个方向上遍历链表，所以第一种情景可能无法工作。然而，第二种情景，也被称为慢指针和快指针技巧，是非常有用的。
 
 - [两个链表的公共节点](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%AC%E5%85%B1%E8%8A%82%E7%82%B9.html)
-- [链表倒数第k个节点](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.html)
+- [链表倒数第 k 个节点](http://www.conardli.top/docs/dataStructure/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.html)
 - [相交链表](https://leetcode-cn.com/explore/learn/card/linked-list/194/two-pointer-technique/746/)
 
 ### 双向链表

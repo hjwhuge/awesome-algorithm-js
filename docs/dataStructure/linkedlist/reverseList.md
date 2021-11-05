@@ -1,9 +1,3 @@
----
-{
-  "title": "反转链表",
-}
----
-
 ## 反转链表
 
 输入一个链表，反转链表后，输出新链表的表头。
@@ -19,15 +13,15 @@
 ## 代码
 
 ```js
-    var reverseList = function (head) {
-      let currentNode = null;
-      let headNode = head;
-      while (head && head.next) {
-        currentNode = head.next;
-        head.next = currentNode.next;
-        currentNode.next = headNode;
-        headNode = currentNode;
-      }
-      return headNode;
-    };
+var reverseList = function (head) {
+  let currentNode = null;
+  let headNode = head;
+  while (head && head.next) {
+    currentNode = head.next;
+    head.next = currentNode.next;
+    currentNode.next = headNode;
+    headNode = currentNode;
+  }
+  return headNode;
+};
 ```

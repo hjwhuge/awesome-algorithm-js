@@ -15,12 +15,13 @@ module.exports = {
       { text: "github", link: "https://github.com/hjwhuge" },
     ],
     sidebar: {
-      "/dataStructure/": getAlgorithmSidebar(),
+      "/dataStructure/": getDataStructureSidebar(),
+      "/algorithm/": getAlgorithmSidebar(),
     },
   },
 };
 
-function getAlgorithmSidebar() {
+function getDataStructureSidebar() {
   return [
     {
       text: "数据结构专题",
@@ -32,6 +33,18 @@ function getAlgorithmSidebar() {
         { text: "链表-简介", link: "/dataStructure/linkedlist/intro" },
         { text: "反转链表", link: "/dataStructure/linkedlist/reverseList" },
       ],
+    },
+  ];
+}
+function getAlgorithmSidebar() {
+  return [
+    {
+      text: "算法专题",
+      link: "/algorithm/index",
+    },
+    {
+      text: "复杂度分析",
+      link: "/algorithm/complexities",
     },
   ];
 }
