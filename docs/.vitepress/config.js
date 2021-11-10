@@ -11,12 +11,14 @@ module.exports = {
     nav: [
       { text: "数据结构分类", link: "/dataStructure/" },
       { text: "算法分类", link: "/algorithm/" },
+      { text: "设计模式", link: "/designPattern/" },
       { text: "博客", link: "https://hjwhuge.github.io/huaRongBlog/" },
       { text: "github", link: "https://github.com/hjwhuge" },
     ],
     sidebar: {
       "/dataStructure/": getDataStructureSidebar(),
       "/algorithm/": getAlgorithmSidebar(),
+      "/designPattern/": getDesignPattern(),
     },
   },
 };
@@ -45,6 +47,18 @@ function getAlgorithmSidebar() {
     {
       text: "复杂度分析",
       link: "/algorithm/complexities",
+    },
+  ];
+}
+function getDesignPattern() {
+  return [
+    {
+      text: "JavaScript设计模式整理",
+      link: "/designPattern/index",
+    },
+    {
+      text: "发布-订阅模式",
+      link: "/designPattern/pubSub",
     },
   ];
 }
