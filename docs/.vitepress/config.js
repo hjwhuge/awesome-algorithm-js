@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/",
   title: "awesome-algorithm-js",
   description: "数据结构与算法练习记录",
   themeConfig: {
