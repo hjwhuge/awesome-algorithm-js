@@ -13,13 +13,15 @@ module.exports = {
       { text: "数据结构分类", link: "/dataStructure/" },
       { text: "算法分类", link: "/algorithm/" },
       { text: "设计模式", link: "/designPattern/" },
+      { text: "关于", link: "/about/" },
       { text: "博客", link: "https://hjwhuge.github.io/huaRongBlog/" },
       { text: "github", link: "https://github.com/hjwhuge" },
     ],
     sidebar: {
       "/dataStructure/": getDataStructureSidebar(),
       "/algorithm/": getAlgorithmSidebar(),
-      "/designPattern/": getDesignPattern(),
+      "/designPattern/": getDesignPatternSidebar(),
+      "/about/": getAboutSidebar(),
     },
   },
 };
@@ -29,6 +31,10 @@ function getDataStructureSidebar() {
     {
       text: "数据结构专题",
       link: "/dataStructure/index",
+    },
+    {
+      text: "数组",
+      children: [{ text: "数组-简介", link: "/dataStructure/array/intro" }],
     },
     {
       text: "链表",
@@ -51,7 +57,7 @@ function getAlgorithmSidebar() {
     },
   ];
 }
-function getDesignPattern() {
+function getDesignPatternSidebar() {
   return [
     {
       text: "JavaScript设计模式整理",
@@ -60,6 +66,18 @@ function getDesignPattern() {
     {
       text: "发布-订阅模式",
       link: "/designPattern/pubSub",
+    },
+  ];
+}
+function getAboutSidebar() {
+  return [
+    {
+      text: "me",
+      link: "/about/index",
+    },
+    {
+      text: "数据结构与算法",
+      link: "/about/explanation",
     },
   ];
 }

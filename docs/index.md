@@ -13,5 +13,7 @@ features:
     details: 常见算法解题指南和典型算法的JavaScript实现。
   - title: JavaScript专题
     details: 常见JavaScript项目应用中的技巧，如节流防抖等。
+  - title: 设计模式专题
+    details: 前端常见设计模式学习。
 footer: MIT Licensed | Copyright © 2019-present HuaRong
 ---
