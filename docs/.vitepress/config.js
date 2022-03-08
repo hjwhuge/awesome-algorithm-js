@@ -39,8 +39,20 @@ function getDataStructureSidebar() {
     {
       text: "链表",
       children: [
-        { text: "链表-简介", link: "/dataStructure/linkedlist/intro" },
-        { text: "反转链表", link: "/dataStructure/linkedlist/reverseList" },
+        { text: "链表-简介", link: "/dataStructure/linkedList/intro" },
+        { text: "反转链表", link: "/dataStructure/linkedList/reverseList" },
+      ],
+    },
+    {
+      text: "栈和队列",
+      children: [
+        { text: "栈和队列-简介", link: "/dataStructure/stackQueue/intro" },
+      ],
+    },
+    {
+      text: "哈希表",
+      children: [
+        { text: "哈希表-简介", link: "/dataStructure/hashTable/intro" },
       ],
     },
   ];
