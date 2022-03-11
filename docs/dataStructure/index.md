@@ -17,4 +17,4 @@
 
 ## 二叉树
 
-- [二叉树-概览](./array/intro.md)
+- [二叉树-概览](./binaryTree/intro.md)

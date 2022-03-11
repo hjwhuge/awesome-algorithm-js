@@ -55,6 +55,12 @@ function getDataStructureSidebar() {
         { text: "哈希表-简介", link: "/dataStructure/hashTable/intro" },
       ],
     },
+    {
+      text: "二叉树",
+      children: [
+        { text: "二叉树-简介", link: "/dataStructure/binaryTree/intro" },
+      ],
+    },
   ];
 }
 function getAlgorithmSidebar() {
