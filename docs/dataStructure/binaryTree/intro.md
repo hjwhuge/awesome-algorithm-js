@@ -17,4 +17,8 @@
 - 后序序遍历
   - 后序遍历是指，对于树中的任意节点来说，先打印它的左子节点，然后再打印它的右子节点，最后打印这个节点本身。
 
-![](/二叉树遍历.png)
+<!-- ![](/二叉树遍历.png) -->
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+<img :src="withBase('/二叉树遍历.png')" alt="二叉树遍历" />
