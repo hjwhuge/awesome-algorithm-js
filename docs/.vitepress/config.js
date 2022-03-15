@@ -59,6 +59,10 @@ function getDataStructureSidebar() {
       text: "二叉树",
       children: [
         { text: "二叉树-简介", link: "/dataStructure/binaryTree/intro" },
+        {
+          text: "二叉树-基本操作",
+          link: "/dataStructure/binaryTree/basicOperation",
+        },
       ],
     },
   ];
