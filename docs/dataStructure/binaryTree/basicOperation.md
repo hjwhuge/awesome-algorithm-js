@@ -19,20 +19,19 @@ class Tree {
     this.root = null;
   }
 
-  // find(data) {
-  //   let node = this.root;
-  //   if (node) {
-  //     if (data === node.value) {
-  //       return node;
-  //     } else if (data < node.value) {
-  //       return this.find(data, node.left);
-  //     } else {
-  //       return this.find(data, node.right);
-  //     }
-  //   } else {
-  //     return null;
-  //   }
-  // }
+  find(data, node = this.root) {
+    if (node) {
+      if (data === node.value) {
+        return node;
+      } else if (data < node.value) {
+        return this.find(data, node.left);
+      } else {
+        return this.find(data, node.right);
+      }
+    } else {
+      return null;
+    }
+  }
   insert(data) {
     let node = new Node(data);
     if (!this.root) {
@@ -40,21 +39,19 @@ class Tree {
       return;
     }
     let current = this.root;
-    let parent = null;
     while (current) {
-      parent = current;
-      if (data < parent.value) {
+      if (data < current.value) {
+        if (!current.left) {
+          current.left = node;
+          return;
+        }
         current = current.left;
-        if (!current) {
-          parent.left = node;
-          return;
-        }
       } else {
-        current = current.right;
-        if (!current) {
-          parent.right = node;
+        if (!current.right) {
+          current.right = node;
           return;
         }
+        current = current.right;
       }
     }
   }
@@ -127,8 +124,10 @@ t.insert(7);
 t.insert(6);
 t.insert(0);
 console.log(t);
+// t.preOrder(t.root);
 // t.middleOrder(t.root);
+// t.laterOrder(t.root);
 console.log(t.getMin(), t.getMax());
 console.log(t.getDeep(t.root, 0));
-console.log(t.getNode(5, t.root));
+console.log(t.find(5, t.root));
 ```
