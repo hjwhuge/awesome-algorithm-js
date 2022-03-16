@@ -19,3 +19,6 @@
 
 - [二叉树-概览](./binaryTree/intro.md)
 - [二叉树-基本操作](./binaryTree/basicOperation.md)
+- [二叉树-前序遍历](./binaryTree/preOrder.md)
+- [二叉树-中序遍历](./binaryTree/inOrder.md)
+- [二叉树-后序遍历](./binaryTree/postOrder.md)

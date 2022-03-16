@@ -63,6 +63,18 @@ function getDataStructureSidebar() {
           text: "二叉树-基本操作",
           link: "/dataStructure/binaryTree/basicOperation",
         },
+        {
+          text: "二叉树-前序遍历",
+          link: "/dataStructure/binaryTree/preOrder",
+        },
+        {
+          text: "二叉树-中序遍历",
+          link: "/dataStructure/binaryTree/inOrder",
+        },
+        {
+          text: "二叉树-后序遍历",
+          link: "/dataStructure/binaryTree/postOrder",
+        },
       ],
     },
   ];
