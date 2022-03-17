@@ -24,8 +24,7 @@
 
 ## 链表
 
-- [链表-概览](/dataStructure/linkedlist/intro.md)
-- [反转链表](/dataStructure/linkedlist/reverseList.md)⭐⭐
+## 二叉树
 
 ## 🌸 感谢
 
