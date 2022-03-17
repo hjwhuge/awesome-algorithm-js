@@ -96,6 +96,10 @@ function getDataStructureSidebar() {
           link: "/dataStructure/binaryTree/verifyPostorder",
         },
         {
+          text: "验证二叉搜索数",
+          link: "/dataStructure/binaryTree/isValidBST",
+        },
+        {
           text: "二叉树&二叉搜索树最近公共祖先",
           link: "/dataStructure/binaryTree/lowestCommonAncestor",
         },
