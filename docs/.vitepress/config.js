@@ -7,7 +7,7 @@ module.exports = {
       apiKey: "25626fae796133dc1e734c6bcaaeac3c",
       indexName: "docsearch",
     },
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     lastUpdated: "Last Updated",
     nav: [
       { text: "数据结构分类", link: "/dataStructure/" },
@@ -74,6 +74,42 @@ function getDataStructureSidebar() {
         {
           text: "二叉树-后序遍历",
           link: "/dataStructure/binaryTree/postOrder",
+        },
+        {
+          text: "重建二叉树",
+          link: "/dataStructure/binaryTree/build",
+        },
+        {
+          text: "对称的二叉树",
+          link: "/dataStructure/binaryTree/symmetric",
+        },
+        {
+          text: "二叉树的镜像",
+          link: "/dataStructure/binaryTree/mirror",
+        },
+        {
+          text: "二叉搜索树-第 k 小的节点",
+          link: "/dataStructure/binaryTree/kthSmallest",
+        },
+        {
+          text: "二叉搜索树-后序遍历",
+          link: "/dataStructure/binaryTree/verifyPostorder",
+        },
+        {
+          text: "二叉树&二叉搜索树最近公共祖先",
+          link: "/dataStructure/binaryTree/lowestCommonAncestor",
+        },
+        {
+          text: "二叉树-最大深度",
+          link: "/dataStructure/binaryTree/maxDepth",
+        },
+        {
+          text: "二叉树-最小深度",
+          link: "/dataStructure/binaryTree/minDepth",
+        },
+        {
+          text: "平衡二叉树",
+          link: "/dataStructure/binaryTree/isBalanced",
         },
       ],
     },

@@ -7,7 +7,7 @@
 为了更好的阅读体验可以到 ：https://hjwhuge.github.io/ 阅读。
 
 <a href="http://www.conardli.top/docs/" class="item" >
-  <img src="./docs/public/logo.png" width="550px"  />
+  <img src="./docs/public/logo.jpg" width="550px"  />
 </a>
 
 - ⭐⭐：入门
