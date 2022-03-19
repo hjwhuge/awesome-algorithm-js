@@ -1,6 +1,6 @@
-## JavaScript 发布-订阅模式
+### JavaScript 发布-订阅模式
 
-### 通用实现（用 js 实现简单发布订阅模式）
+通用实现（用 js 实现简单发布订阅模式）
 
 ```js
 const event = {
