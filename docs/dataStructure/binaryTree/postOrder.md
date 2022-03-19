@@ -34,3 +34,38 @@ var postorderTraversal = function (root, array = []) {
 ```
 
 非递归实现
+
+> 两种方式是等价的，区别在于递归的时候隐式地维护了一个栈，而我们在迭代的时候需要显式地将这个栈模拟出来，其他都相同.
+
+- 取根节点为目标节点，开始遍历
+- 1.左节点入栈 -> 直至左节点为空的节点
+- 2.栈顶节点的右节点为空或右节点被访问过 -> 节点出栈并输出它，将该节点设为上一个访问节点
+- 3.栈顶节点的右节点不为空且未被访问，以右孩子为目标节点，再依次执行 1、2、3
+
+```js
+var inorderTraversal = function (root) {
+  const result = [];
+  const stack = [];
+  let prev = null; // 标记上一个访问的节点
+  let current = root;
+  while (current || stack.length > 0) {
+    while (current) {
+      stack.push(current);
+      current = current.left;
+    }
+    // 获取当前节点
+    current = stack[stack.length - 1];
+    // 右节点不存在或者右节点被访问过
+    if (!current.right || current.right == prev) {
+      current = stack.pop();
+      result.push(current.val);
+      prev = current;
+      // 防止陷入进栈出栈循环
+      current = null;
+    } else {
+      current = current.right;
+    }
+  }
+  return result;
+};
+```
