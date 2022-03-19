@@ -13,6 +13,7 @@ module.exports = {
       { text: "数据结构分类", link: "/dataStructure/" },
       { text: "算法分类", link: "/algorithm/" },
       { text: "设计模式", link: "/designPattern/" },
+      { text: "JavaScript", link: "/JavaScript/" },
       { text: "关于", link: "/about/" },
       { text: "博客", link: "https://hjwhuge.github.io/huaRongBlog/" },
       { text: "github", link: "https://github.com/hjwhuge" },
@@ -21,6 +22,7 @@ module.exports = {
       "/dataStructure/": getDataStructureSidebar(),
       "/algorithm/": getAlgorithmSidebar(),
       "/designPattern/": getDesignPatternSidebar(),
+      "/JavaScript/": getJavaScriptSidebar(),
       "/about/": getAboutSidebar(),
     },
   },
@@ -96,7 +98,7 @@ function getDataStructureSidebar() {
           link: "/dataStructure/binaryTree/verifyPostorder",
         },
         {
-          text: "验证二叉搜索数",
+          text: "验证二叉搜索树",
           link: "/dataStructure/binaryTree/isValidBST",
         },
         {
@@ -129,17 +131,39 @@ function getAlgorithmSidebar() {
       text: "复杂度分析",
       link: "/algorithm/complexities",
     },
+    {
+      text: "排序",
+      children: [
+        { text: "排序-概览", link: "/algorithm/sort/intro" },
+        { text: "冒泡排序", link: "/algorithm/sort/bubbleSort" },
+        { text: "插入排序", link: "/algorithm/sort/insertionSort" },
+        { text: "选择排序", link: "/algorithm/sort/selectionSort" },
+        { text: "归并排序", link: "/algorithm/sort/mergeSort" },
+        { text: "快速排序", link: "/algorithm/sort/quickSort" },
+        { text: "桶排序", link: "/algorithm/sort/bucketSort" },
+        { text: "计数排序", link: "/algorithm/sort/countingSort" },
+        { text: "基数排序", link: "/algorithm/sort/radixSort" },
+      ],
+    },
   ];
 }
 function getDesignPatternSidebar() {
   return [
     {
-      text: "JavaScript设计模式整理",
+      text: "JavaScript设计模式",
       link: "/designPattern/index",
     },
     {
       text: "发布-订阅模式",
       link: "/designPattern/pubSub",
+    },
+  ];
+}
+function getJavaScriptSidebar() {
+  return [
+    {
+      text: "JavaScript专题",
+      link: "/JavaScript/index",
     },
   ];
 }
