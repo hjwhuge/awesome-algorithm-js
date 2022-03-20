@@ -30,7 +30,7 @@
 - 二叉搜索树
   - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)
   - [二叉搜索树-后序遍历](./binaryTree/verifyPostorder.md)
-  - [验证二叉搜索树](./binaryTree/isValidBST.md)
+  - [验证二叉搜索树](./binaryTree/isValidBST.md)⭐⭐⭐
   - [二叉树&二叉搜索树最近公共祖先](./binaryTree/lowestCommonAncestor.md)
 - 二叉树深度
   - [二叉树-最大深度](./binaryTree/maxDepth.md)
