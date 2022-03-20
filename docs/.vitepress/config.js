@@ -154,6 +154,10 @@ function getDesignPatternSidebar() {
       link: "/designPattern/index",
     },
     {
+      text: "单例模式",
+      link: "/designPattern/singleton",
+    },
+    {
       text: "发布-订阅模式",
       link: "/designPattern/pubSub",
     },
