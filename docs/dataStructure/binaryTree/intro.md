@@ -15,7 +15,7 @@
 - 二叉树的深度 = 根节点到最远叶子节点的最长路径上的节点数（包含根节点和最远叶子节点）
   - 如下图中二叉树的深度为 4
 
-<img :src="withBase('/树的高度-深度-层数.png')" alt="树的高度-深度-层数" />
+<img :src="$withBase('/树的高度-深度-层数.png')" alt="树的高度-深度-层数" />
 
 ### 如何表示（存储）一棵二叉树
 
@@ -43,7 +43,7 @@
 - 后序序遍历
   - 后序遍历是指，对于树中的任意节点来说，先打印它的左子节点，然后再打印它的右子节点，最后打印这个节点本身。
 
-<img :src="withBase('/二叉树遍历.png')" alt="二叉树遍历" />
+<img :src="$withBase('/二叉树遍历.png')" alt="二叉树遍历" />
 
 ### 二叉搜索树（二叉查找树、Binary Search Tree）
 
@@ -74,11 +74,7 @@
   - 在示例图中，左侧红黑树根节点到其可以到达的叶子节点，都包含 3 个黑色节点（有一个隐藏）
 
 示例图
-<img :src="withBase('/红黑树.png')" alt="红黑树" />
+<img :src="$withBase('/红黑树.png')" alt="红黑树" />
 
 没有省略叶子结点的完整红黑树图
-<img :src="withBase('/完整红黑树.jpg')" alt="完整红黑树" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/完整红黑树.jpg')" alt="完整红黑树" />

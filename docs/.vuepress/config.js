@@ -3,13 +3,9 @@ module.exports = {
   title: "awesome-algorithm-js",
   description: "数据结构与算法练习记录",
   themeConfig: {
-    algolia: {
-      apiKey: "25626fae796133dc1e734c6bcaaeac3c",
-      indexName: "docsearch",
-    },
     sidebarDepth: 3,
     lastUpdated: "Last Updated",
-    nav: [
+    navbar: [
       { text: "数据结构分类", link: "/dataStructure/" },
       { text: "算法分类", link: "/algorithm/" },
       { text: "设计模式", link: "/designPattern/" },
@@ -32,7 +28,7 @@ function getDataStructureSidebar() {
   return [
     {
       text: "数据结构专题",
-      link: "/dataStructure/index",
+      link: "/dataStructure/",
     },
     {
       text: "数组",
@@ -125,7 +121,7 @@ function getAlgorithmSidebar() {
   return [
     {
       text: "算法专题",
-      link: "/algorithm/index",
+      link: "/algorithm/",
     },
     {
       text: "复杂度分析",
@@ -151,7 +147,7 @@ function getDesignPatternSidebar() {
   return [
     {
       text: "JavaScript设计模式",
-      link: "/designPattern/index",
+      link: "/designPattern/",
     },
     {
       text: "单例模式",
@@ -167,7 +163,7 @@ function getJavaScriptSidebar() {
   return [
     {
       text: "JavaScript专题",
-      link: "/JavaScript/index",
+      link: "/JavaScript/",
     },
   ];
 }

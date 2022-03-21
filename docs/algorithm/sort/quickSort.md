@@ -4,11 +4,7 @@
 
 通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据比另一部分的所有数据要小，再按这种方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，使整个数据变成有序序列。
 
-<img :src="withBase('/快速排序.gif')" alt="快速排序" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/快速排序.gif')" alt="快速排序" />
 
 ### 解法
 

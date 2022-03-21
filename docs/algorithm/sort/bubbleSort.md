@@ -7,11 +7,7 @@
 - 一次冒泡（循环）会让至少一个元素移动到它应该在的位置，重复 n 次，就完成了 n 个数据的排序工作
 - 优化：当一次循环没有发生冒泡，说明已经排序完成，停止循环。
 
-<img :src="withBase('/冒泡排序.gif')" alt="冒泡排序" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/冒泡排序.gif')" alt="冒泡排序" />
 
 ### 解法
 

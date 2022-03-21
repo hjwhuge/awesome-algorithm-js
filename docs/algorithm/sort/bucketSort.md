@@ -6,11 +6,7 @@
 
 - 桶排序比较适合用在外部排序中。所谓的外部排序就是数据存储在外部磁盘中，数据量比较大，内存有限，无法将数据全部加载到内存中
 
-<img :src="withBase('/桶排序.png')" alt="桶排序" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/桶排序.png')" alt="桶排序" />
 
 ### 解法
 

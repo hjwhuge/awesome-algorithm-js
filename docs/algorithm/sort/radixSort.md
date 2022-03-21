@@ -7,11 +7,7 @@
 - 经过 11 次排序后，手机号码就变为有序的了。
 - 每次排序有序数据范围较小，可以使用桶排序或计数排序来完成。
 
-<img :src="withBase('/基数排序.gif')" alt="基数排序" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/基数排序.gif')" alt="基数排序" />
 
 ### 解法
 

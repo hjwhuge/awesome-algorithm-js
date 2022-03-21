@@ -6,11 +6,7 @@
 
 每个桶内的数据值都是相同的，省掉了桶内排序的时间
 
-<img :src="withBase('/计数排序.gif')" alt="计数排序" />
-
-<script setup>
-import { withBase } from 'vitepress'
-</script>
+<img :src="$withBase('/计数排序.gif')" alt="计数排序" />
 
 ### 解法
 
