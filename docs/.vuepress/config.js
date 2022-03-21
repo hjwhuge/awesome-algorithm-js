@@ -29,6 +29,23 @@ module.exports = {
         showInMobile: true,
       },
     ],
+    [
+      "@vuepress/docsearch",
+      {
+        apiKey: "<API_KEY>",
+        indexName: "<INDEX_NAME>",
+        locales: {
+          "/": {
+            placeholder: "搜索文档",
+            translations: {
+              button: {
+                buttonText: "搜索文档",
+              },
+            },
+          },
+        },
+      },
+    ],
   ],
 };
 
