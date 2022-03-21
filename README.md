@@ -7,7 +7,7 @@
 为了更好的阅读体验可以到 ：https://hjwhuge.github.io/ 阅读。
 
 <a href="http://www.conardli.top/docs/" class="item" >
-  <img src="./docs/public/logo.jpg" width="550px"  />
+  <img src="./docs/.vuepress/public/logo.jpg" width="550px"  />
 </a>
 
 - ⭐⭐：入门
@@ -37,5 +37,5 @@
 您还可以在下面的地方关注我，共同学习进步。
 
 <a href="https://juejin.cn/user/3949101498788302" >
-  <img src="./docs/public/juejin.png"  width="220px" height="110px" /> 
+  <img src="./docs/.vuepress/public/juejin.png"  width="220px" height="110px" /> 
 </a>
