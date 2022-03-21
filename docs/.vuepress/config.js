@@ -4,7 +4,7 @@ module.exports = {
   description: "数据结构与算法练习记录",
   themeConfig: {
     sidebarDepth: 3,
-    lastUpdated: "Last Updated",
+    lastUpdated: "上次更新",
     navbar: [
       { text: "数据结构分类", link: "/dataStructure/" },
       { text: "算法分类", link: "/algorithm/" },
@@ -22,6 +22,14 @@ module.exports = {
       "/about/": getAboutSidebar(),
     },
   },
+  plugins: [
+    [
+      "copy-code2",
+      {
+        showInMobile: true,
+      },
+    ],
+  ],
 };
 
 function getDataStructureSidebar() {
