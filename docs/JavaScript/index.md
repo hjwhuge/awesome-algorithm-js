@@ -1,5 +1,5 @@
 ## JavaScript 专题
 
-- 手动实现 call、apply、bind
+- [手写实现 call、apply、bind](./handwritingCallApplyBind.md)
 - 防抖
 - 节流

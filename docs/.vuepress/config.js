@@ -190,6 +190,10 @@ function getJavaScriptSidebar() {
       text: "JavaScript专题",
       link: "/JavaScript/",
     },
+    {
+      text: "手写实现 call、apply、bind",
+      link: "/JavaScript/handwritingCallApplyBind",
+    },
   ];
 }
 function getAboutSidebar() {
