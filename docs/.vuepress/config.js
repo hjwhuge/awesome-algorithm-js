@@ -32,18 +32,9 @@ module.exports = {
     [
       "@vuepress/docsearch",
       {
-        apiKey: "<API_KEY>",
-        indexName: "<INDEX_NAME>",
-        locales: {
-          "/": {
-            placeholder: "搜索文档",
-            translations: {
-              button: {
-                buttonText: "搜索文档",
-              },
-            },
-          },
-        },
+        apiKey: "a7d5d3de5a7e323e21f5dd761180bff5",
+        indexName: "hjwhuge",
+        placeholder: "Search",
       },
     ],
   ],
