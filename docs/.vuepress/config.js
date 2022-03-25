@@ -32,6 +32,7 @@ module.exports = {
     [
       "@vuepress/docsearch",
       {
+        appId: "Z1EHO2WMD6",
         apiKey: "a7d5d3de5a7e323e21f5dd761180bff5",
         indexName: "hjwhuge",
         placeholder: "Search",
