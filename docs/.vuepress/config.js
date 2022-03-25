@@ -137,12 +137,12 @@ function getDataStructureSidebar() {
 function getAlgorithmSidebar() {
   return [
     {
-      text: "算法专题",
-      link: "/algorithm/",
-    },
-    {
       text: "复杂度分析",
       link: "/algorithm/complexities",
+    },
+    {
+      text: "算法专题",
+      link: "/algorithm/",
     },
     {
       text: "排序",

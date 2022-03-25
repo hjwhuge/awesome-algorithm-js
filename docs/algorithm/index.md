@@ -6,6 +6,6 @@
 - [选择排序](./sort/selectionSort.md)⭐
 - [归并排序](./sort/mergeSort.md)⭐⭐⭐
 - [快速排序](./sort/quickSort.md)⭐⭐⭐
-- [桶排序](./sort/bucketSort.md)
-- [计数排序](./sort/countingSort.md)
-- [基数排序](./sort/radixSort.md)
+- 桶排序
+- 计数排序
+- 基数排序
