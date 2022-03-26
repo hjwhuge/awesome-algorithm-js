@@ -15,7 +15,44 @@
 <img :src="$withBase('/快速排序.jpg')" alt="快速排序" />
 <img :src="$withBase('/快速排序.gif')" alt="快速排序" />
 
-### 解法
+### 解法一
+
+单独开辟两个存储空间 left 和 right 来存储每次递归比 target 小和大的序列
+
+每次递归直接返回 left、target、right 拼接后的数组
+
+浪费大量存储空间，写法简单
+
+```js
+function quickSort(array) {
+  if (array.length < 2) {
+    return array;
+  }
+  const target = array[0];
+  const left = [];
+  const right = [];
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] < target) {
+      left.push(array[i]);
+    } else {
+      right.push(array[i]);
+    }
+  }
+  return quickSort(left).concat([target], quickSort(right));
+}
+
+const testArr = [];
+let i = 0;
+while (i < 10) {
+  testArr.push(Math.floor(Math.random() * 1000));
+  i++;
+}
+console.log("unsort", testArr);
+quickSort(testArr);
+console.log("sort", testArr);
+```
+
+### 解法二
 
 ```js
 const swap = (arr, i, j) => {
@@ -24,7 +61,7 @@ const swap = (arr, i, j) => {
   arr[j] = temp;
 };
 
-// 获取 pivot 交换完后的index
+// 分区函数，每执行一次，进行一轮快排，返回当前基准元素的index
 const partition = (arr, pivot, left, right) => {
   const pivotVal = arr[pivot];
   let startIndex = left;
@@ -40,8 +77,10 @@ const partition = (arr, pivot, left, right) => {
 
 const quickSort = (arr, left, right) => {
   if (left < right) {
+    // 以right为区分点
     let pivot = right;
     let partitionIndex = partition(arr, pivot, left, right);
+    // 通过上一轮的基准元素index，递归后续排序，知道拆分的数组长度为1
     quickSort(arr, left, partitionIndex - 1 < left ? left : partitionIndex - 1);
     quickSort(
       arr,

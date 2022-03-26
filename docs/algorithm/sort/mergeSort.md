@@ -14,6 +14,10 @@
 
 ### 解法
 
+分割数组时直接将数组分割为两个数组，合并时直接合并数组。
+
+- 思路简单，写法简单
+
 ```js
 const mergeSort = (arr) => {
   // 当任意数组分解到只有一个时返回。
@@ -24,6 +28,7 @@ const mergeSort = (arr) => {
   // 递归 分解 合并
   return mergeArr(mergeSort(left), mergeSort(right));
 };
+// 合并函数
 const mergeArr = (left, right) => {
   let temp = [];
   let leftIndex = 0;
@@ -38,7 +43,7 @@ const mergeArr = (left, right) => {
       rightIndex++;
     }
   }
-  // 合并 多余数组
+  // 合并 多余数组 ，后续两个循环把比较完成之后剩余数组加入temp中
   return temp.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 };
 
