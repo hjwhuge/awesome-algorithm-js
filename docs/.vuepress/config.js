@@ -49,7 +49,17 @@ function getDataStructureSidebar() {
     },
     {
       text: "数组",
-      children: [{ text: "数组-简介", link: "/dataStructure/array/intro" }],
+      children: [
+        { text: "数组-简介", link: "/dataStructure/array/intro" },
+        {
+          text: "数组-数组中重复的数字",
+          link: "/dataStructure/array/findRepeatNumber",
+        },
+        {
+          text: "数组-二维数组中的查找",
+          link: "/dataStructure/array/findNumberIn2DArray",
+        },
+      ],
     },
     {
       text: "链表",
