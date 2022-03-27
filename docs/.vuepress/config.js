@@ -158,6 +158,15 @@ function getAlgorithmSidebar() {
         { text: "基数排序", link: "/algorithm/sort/radixSort" },
       ],
     },
+    {
+      text: "递归",
+      children: [
+        { text: "递归-概览", link: "/algorithm/recursion/intro" },
+        { text: "递归-斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
+        { text: "递归-跳台阶", link: "/algorithm/recursion/jumpFloor" },
+        { text: "递归-实现pow函数", link: "/algorithm/recursion/pow" },
+      ],
+    },
   ];
 }
 function getDesignPatternSidebar() {
