@@ -18,10 +18,20 @@
 
 #### 实现思路
 
-遍历数组，通过 map 数据结构记录未重复数据，如果有重复数据保存到 result 中
+新建一个 map 对象，遍历数组，如果数字不存在 map 中，添加到 map；如果数字存在 map 中，说明该数字是重复的，返回改数字。
 
 ### 代码实现
 
 ```js
-
+cosnt findRepeatNumber = function(nums) {
+    const m = new Map();
+    for(let item of nums){
+        if(m.has(item)){
+            return item
+        }else{
+            m.set(item,1)
+        }
+    }
+    return null
+};
 ```
