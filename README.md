@@ -10,8 +10,9 @@
   <img src="./docs/.vuepress/public/logo.jpg" width="550px"  />
 </a>
 
-- ⭐⭐：入门
-- ⭐⭐⭐：进阶
+- ⭐⭐：入门(对应 easy 难度)
+- ⭐⭐⭐：进阶(对应 medium 难度)
+- ⭐⭐⭐⭐：进阶(对应 hard 难度)
 - <img src="https://img.shields.io/badge/EASY-green?style=flat-square"/>：简单
 - <img src="https://img.shields.io/badge/MEDIUM-yellow?style=flat-square"/>：中等
 - <img src="https://img.shields.io/badge/Hard-red?style=flat-square"/>：困难
