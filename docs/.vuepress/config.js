@@ -66,6 +66,34 @@ function getDataStructureSidebar() {
       children: [
         { text: "链表-简介", link: "/dataStructure/linkedList/intro" },
         { text: "反转链表", link: "/dataStructure/linkedList/reverseList" },
+        {
+          text: "链表中环的检测",
+          link: "/dataStructure/linkedList/hasCycle",
+        },
+        {
+          text: "链表中环的检测II",
+          link: "/dataStructure/linkedList/detectCycle",
+        },
+        {
+          text: "两个有序的链表合并",
+          link: "/dataStructure/linkedList/mergeTwoLists",
+        },
+        {
+          text: "求链表的中间结点",
+          link: "/dataStructure/linkedList/middleNode",
+        },
+        {
+          text: "删除链表倒数第 n 个结点",
+          link: "/dataStructure/linkedList/removeNthFromEnd",
+        },
+        {
+          text: "链表交换相邻元素",
+          link: "/dataStructure/linkedList/swapPairs",
+        },
+        {
+          text: "K 个一组翻转链表",
+          link: "/dataStructure/linkedList/reverseKGroup",
+        },
       ],
     },
     {
