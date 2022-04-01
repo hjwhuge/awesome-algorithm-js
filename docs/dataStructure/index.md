@@ -7,6 +7,7 @@
 ## 链表
 
 - [链表-概览](./linkedList/intro.md)
+- [链表-基本操作](./linkedList/basicOperation.md)
 - [反转链表](./linkedList/reverseList.md)⭐⭐
 - [链表中环的检测](./linkedList/hasCycle.md)⭐⭐
 - [链表中环的检测 II](./linkedList/detectCycle.md)⭐⭐⭐
