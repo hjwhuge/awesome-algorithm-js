@@ -1,3 +1,5 @@
+<img :src="$withBase('/stack.png')" alt="栈和队列" />
+
 ## 栈
 
 说明：先进者后出
