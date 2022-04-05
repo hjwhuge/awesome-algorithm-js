@@ -113,6 +113,8 @@ class Tree {
 }
 ```
 
+测试
+
 ```js
 let t = new Tree();
 t.insert(3);
