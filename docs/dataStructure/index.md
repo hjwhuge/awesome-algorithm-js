@@ -20,6 +20,11 @@
 ## 栈和队列
 
 - [栈-概览](./stackQueue/intro.md)
+- [判断括号字符串是否有效](./stackQueue/isValid.md)⭐⭐
+- [用队列实现栈](./stackQueue/myStack.md)⭐⭐
+- [用栈实现队列](./stackQueue/myQueue.md)⭐⭐
+- [返回数据流第 K 大元素](./stackQueue/kthLargest.md)⭐⭐
+- [返回滑动窗口的最大值](./stackQueue/maxSlidingWindow.md)⭐⭐⭐⭐
 
 ## 哈希表
 

@@ -104,6 +104,20 @@ function getDataStructureSidebar() {
       text: "栈和队列",
       children: [
         { text: "栈和队列-简介", link: "/dataStructure/stackQueue/intro" },
+        {
+          text: "判断括号字符串是否有效",
+          link: "/dataStructure/stackQueue/isValid",
+        },
+        { text: "用队列实现栈", link: "/dataStructure/stackQueue/myStack" },
+        { text: "用栈实现队列", link: "/dataStructure/stackQueue/myQueue" },
+        {
+          text: "返回数据流第 K 大元素",
+          link: "/dataStructure/stackQueue/kthLargest",
+        },
+        {
+          text: "返回滑动窗口的最大值",
+          link: "/dataStructure/stackQueue/maxSlidingWindow",
+        },
       ],
     },
     {
