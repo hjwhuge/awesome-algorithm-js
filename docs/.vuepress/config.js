@@ -124,6 +124,25 @@ function getDataStructureSidebar() {
       text: "哈希表",
       children: [
         { text: "哈希表-简介", link: "/dataStructure/hashTable/intro" },
+        { text: "两数之和", link: "/dataStructure/hashTable/twoSum" },
+        { text: "三数之和", link: "/dataStructure/hashTable/threeSum" },
+        { text: "四数之和", link: "/dataStructure/hashTable/fourSum" },
+        {
+          text: "有效的字母异位词",
+          link: "/dataStructure/hashTable/isAnagram",
+        },
+        {
+          text: "宝石与石头",
+          link: "/dataStructure/hashTable/numJewelsInStones",
+        },
+        {
+          text: "第一个只出现一次的字符",
+          link: "/dataStructure/hashTable/firstUniqChar",
+        },
+        {
+          text: "常数时间插入、删除和获取随机元素",
+          link: "/dataStructure/hashTable/RandomizedSet",
+        },
       ],
     },
     {

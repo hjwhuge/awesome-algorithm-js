@@ -10,12 +10,12 @@
 - [链表-基本操作](./linkedList/basicOperation.md)
 - [反转链表](./linkedList/reverseList.md)⭐⭐
 - [链表中环的检测](./linkedList/hasCycle.md)⭐⭐
-- [链表中环的检测 II](./linkedList/detectCycle.md)⭐⭐⭐
+- [链表中环的检测 II](./linkedList/detectCycle.md)⭐⭐⭐ 未完成
 - [两个有序的链表合并](./linkedList/mergeTwoLists.md)⭐⭐
 - [求链表的中间结点](./linkedList/middleNode.md)⭐⭐
 - [删除链表倒数第 n 个结点](./linkedList/removeNthFromEnd.md)⭐⭐⭐
 - [链表交换相邻元素](./linkedList/swapPairs.md)⭐⭐⭐
-- [K 个一组翻转链表](./linkedList/reverseKGroup.md)⭐⭐⭐⭐
+- [K 个一组翻转链表](./linkedList/reverseKGroup.md)⭐⭐⭐⭐ 未完成
 
 ## 栈和队列
 
@@ -23,12 +23,19 @@
 - [判断括号字符串是否有效](./stackQueue/isValid.md)⭐⭐
 - [用队列实现栈](./stackQueue/myStack.md)⭐⭐
 - [用栈实现队列](./stackQueue/myQueue.md)⭐⭐
-- [返回数据流第 K 大元素](./stackQueue/kthLargest.md)⭐⭐
-- [返回滑动窗口的最大值](./stackQueue/maxSlidingWindow.md)⭐⭐⭐⭐
+- [返回数据流第 K 大元素](./stackQueue/kthLargest.md)⭐⭐ 未完成
+- [返回滑动窗口的最大值](./stackQueue/maxSlidingWindow.md)⭐⭐⭐⭐ 未完成
 
 ## 哈希表
 
 - [哈希表-概览](./hashTable/intro.md)
+- [两数之和](./hashTable/twoSum.md)⭐⭐ 未完成
+- [三数之和](./hashTable/threeSum.md)⭐⭐⭐ 未完成
+- [四数之和](./hashTable/fourSum.md)⭐⭐⭐ 未完成
+- [有效的字母异位词](./hashTable/isAnagram.md)⭐⭐ 未完成
+- [宝石与石头](./hashTable/numJewelsInStones.md)⭐⭐ 未完成
+- [第一个只出现一次的字符](./hashTable/firstUniqChar.md)⭐⭐ 未完成
+- [常数时间插入、删除和获取随机元素](./hashTable/RandomizedSet.md)⭐⭐⭐ 未完成
 
 ## 二叉树
 
@@ -38,16 +45,16 @@
   - [二叉树-前序遍历](./binaryTree/preOrder.md)⭐⭐
   - [二叉树-中序遍历](./binaryTree/inOrder.md)⭐⭐
   - [二叉树-后序遍历](./binaryTree/postOrder.md)⭐⭐
-  - [重建二叉树](./binaryTree/build.md)
+  - [重建二叉树](./binaryTree/build.md)⭐⭐⭐ 未完成
 - 二叉树的对称性
-  - [对称的二叉树](./binaryTree/symmetric.md)
-  - [二叉树的镜像](./binaryTree/mirror.md)
+  - [对称的二叉树](./binaryTree/symmetric.md)⭐⭐ 未完成
+  - [二叉树的镜像](./binaryTree/mirror.md)⭐⭐ 未完成
 - 二叉搜索树
-  - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)
-  - [二叉搜索树-后序遍历](./binaryTree/verifyPostorder.md)
+  - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)⭐⭐⭐ 未完成
+  - [二叉搜索树-后序遍历](./binaryTree/verifyPostorder.md)⭐⭐⭐ 未完成
   - [验证二叉搜索树](./binaryTree/isValidBST.md)⭐⭐⭐
-  - [二叉树&二叉搜索树最近公共祖先](./binaryTree/lowestCommonAncestor.md)
+  - [二叉树&二叉搜索树最近公共祖先](./binaryTree/lowestCommonAncestor.md)⭐⭐⭐ 未完成
 - 二叉树深度
-  - [二叉树-最大深度](./binaryTree/maxDepth.md)
-  - [二叉树-最小深度](./binaryTree/minDepth.md)
-  - [平衡二叉树](./binaryTree/isBalanced.md)
+  - [二叉树-最大深度](./binaryTree/maxDepth.md)⭐⭐ 未完成
+  - [二叉树-最小深度](./binaryTree/minDepth.md)⭐⭐ 未完成
+  - [平衡二叉树](./binaryTree/isBalanced.md)⭐⭐ 未完成
