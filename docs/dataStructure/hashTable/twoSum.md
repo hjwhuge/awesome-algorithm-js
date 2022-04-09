@@ -6,8 +6,27 @@
 
 #### 实现思路
 
+方法一：暴力破解
+
+- 两层遍历，找到符合要求的答案，时间复杂度 o(n²)，空间复杂度为 o(1)
+
+方法二：哈希表
+
+- 通过一个哈希表，简化查询 target numsp[i]的查询，时间复杂度 o(n)，空间复杂度为 o(n)
+
 ### 代码实现
 
-```js
+#### 哈希表实现
 
+```js
+var twoSum = function (nums, target) {
+  let map = new Map();
+  for (var i = 0; i < nums.length; i++) {
+    let res = target - nums[i];
+    if (map.has(res)) {
+      return [map.get(res), i];
+    }
+    map.set(nums[i], i);
+  }
+};
 ```
