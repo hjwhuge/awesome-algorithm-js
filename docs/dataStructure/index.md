@@ -29,8 +29,8 @@
 ## 哈希表
 
 - [哈希表-概览](./hashTable/intro.md)
-- [两数之和](./hashTable/twoSum.md)⭐⭐ 未完成
-- [三数之和](./hashTable/threeSum.md)⭐⭐⭐ 未完成
+- [两数之和](./hashTable/twoSum.md)⭐⭐
+- [三数之和](./hashTable/threeSum.md)⭐⭐⭐
 - [四数之和](./hashTable/fourSum.md)⭐⭐⭐ 未完成
 - [有效的字母异位词](./hashTable/isAnagram.md)⭐⭐ 未完成
 - [宝石与石头](./hashTable/numJewelsInStones.md)⭐⭐ 未完成
