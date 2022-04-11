@@ -33,8 +33,62 @@ randomizedSet.getRandom(); // 由于 2 是集合中唯一的数字，getRandom �
 
 #### 实现思路
 
+通过 array 和 map 实现
+
+- 通过 array 来实现查找函数 O(1)，通过 map 来实现删除和插入函数 O(1)
+
 ### 代码实现
 
 ```js
+var RandomizedSet = function () {
+  this.nums = [];
+  this.m = new Map();
+};
 
+/**
+ * @param {number} val
+ * @return {boolean}
+ */
+RandomizedSet.prototype.insert = function (val) {
+  if (this.m.has(val)) {
+    return false;
+  } else {
+    const idx = this.nums.length;
+    this.m.set(val, idx);
+    this.nums.push(val);
+    return true;
+  }
+};
+
+/**
+ * @param {number} val
+ * @return {boolean}
+ */
+RandomizedSet.prototype.remove = function (val) {
+  if (this.m.has(val)) {
+    const idx = this.nums.findIndex((item) => item === val);
+    this.nums.splice(idx, 1);
+    this.m.delete(val);
+    return true;
+  } else {
+    return false;
+  }
+};
+
+/**
+ * @return {number}
+ */
+RandomizedSet.prototype.getRandom = function () {
+  // 通过 Math的random来获取随机下标
+  const random = Math.floor(Math.random() * this.nums.length);
+  return this.nums[random];
+};
+
+/**
+ * Your RandomizedSet object will be instantiated and called as such:
+ * var obj = new RandomizedSet()
+ * var param_1 = obj.insert(val)
+ * var param_2 = obj.remove(val)
+ * var param_3 = obj.getRandom()
+ */
 ```
