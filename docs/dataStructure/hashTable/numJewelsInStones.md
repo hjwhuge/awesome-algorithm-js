@@ -22,8 +22,22 @@
 
 #### 实现思路
 
+使用 map 记录宝石类型，遍历石头，如果存在于 map 中宝石数量+1
+
 ### 代码实现
 
 ```js
-
+var numJewelsInStones = function (jewels, stones) {
+  let m = new Map();
+  let num = 0;
+  for (let item of jewels) {
+    m.set(item, 1);
+  }
+  for (let item of stones) {
+    if (m.has(item)) {
+      num++;
+    }
+  }
+  return num;
+};
 ```
