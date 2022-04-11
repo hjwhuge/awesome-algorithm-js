@@ -2,7 +2,7 @@
 
 - [数组-概览](./array/intro.md)
 - [数组-数组中重复的数字](./array/findRepeatNumber.md)⭐⭐
-- [数组-二维数组中的查找](./array/findNumberIn2DArray.md)⭐⭐⭐
+- [数组-二维数组中的查找](./array/findNumberIn2DArray.md)⭐⭐⭐ 未完成
 
 ## 链表
 
