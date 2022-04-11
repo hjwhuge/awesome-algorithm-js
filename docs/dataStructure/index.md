@@ -34,7 +34,7 @@
 - [四数之和](./hashTable/fourSum.md)⭐⭐⭐ 未完成
 - [有效的字母异位词](./hashTable/isAnagram.md)⭐⭐
 - [宝石与石头](./hashTable/numJewelsInStones.md)⭐⭐
-- [第一个只出现一次的字符](./hashTable/firstUniqChar.md)⭐⭐ 未完成
+- [第一个只出现一次的字符](./hashTable/firstUniqChar.md)⭐⭐
 - [常数时间插入、删除和获取随机元素](./hashTable/RandomizedSet.md)⭐⭐⭐
 
 ## 二叉树
