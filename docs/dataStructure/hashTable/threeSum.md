@@ -30,7 +30,7 @@ var threeSum = function (nums) {
   let res = [];
   nums.sort((a, b) => a - b);
   for (let i = 0; i < nums.length; i++) {
-    // 如果单前值后上一个值一致，跳过当前值，防止重复
+    // 如果当前值后上一个值一致，跳过当前值，防止重复
     if (i > 0 && nums[i] === nums[i - 1]) continue;
     let left = i + 1;
     let right = nums.length - 1;

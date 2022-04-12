@@ -30,7 +30,7 @@
 - [哈希表-概览](./hashTable/intro.md)
 - [两数之和](./hashTable/twoSum.md)⭐⭐
 - [三数之和](./hashTable/threeSum.md)⭐⭐⭐
-- [四数之和](./hashTable/fourSum.md)⭐⭐⭐ 未完成
+- [四数之和](./hashTable/fourSum.md)⭐⭐⭐
 - [有效的字母异位词](./hashTable/isAnagram.md)⭐⭐
 - [宝石与石头](./hashTable/numJewelsInStones.md)⭐⭐
 - [第一个只出现一次的字符](./hashTable/firstUniqChar.md)⭐⭐
