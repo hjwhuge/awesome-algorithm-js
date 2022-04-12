@@ -26,10 +26,38 @@
 
 #### 实现思路
 
-从二维数组的右上角为起点和输入整数判断，如果输入整数大于顶点，排除该行；如果输入整数小于顶点，排除该列；如果等于，返回结果；一直判断到只剩下一个值
+方法一：暴力破解
+
+- 双重 for 循环
+
+方法二：线性查找
+
+- 从二维数组的右上角为起点和输入整数判断，如果输入整数大于顶点，排除该行；如果输入整数小于顶点，排除该列；如果等于，返回结果；一直判断到只剩下一个值
 
 ### 代码实现
 
-```js
+#### 线性查找实现
 
+```js
+var findNumberIn2DArray = function (matrix, target) {
+  if (!matrix || matrix.length == 0 || matrix[0].length == 0) {
+    return false;
+  }
+  const rows = matrix.length;
+  const columns = matrix[0].length;
+  let row = 0;
+  let column = columns - 1;
+  let res = false;
+  while (row < rows && column >= 0 && !res) {
+    let num = matrix[row][column];
+    if (target > num) {
+      row++;
+    } else if (target < num) {
+      column--;
+    } else {
+      res = true;
+    }
+  }
+  return res;
+};
 ```
