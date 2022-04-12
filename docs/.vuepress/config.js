@@ -75,10 +75,6 @@ function getDataStructureSidebar() {
           link: "/dataStructure/linkedList/hasCycle",
         },
         {
-          text: "链表中环的检测II",
-          link: "/dataStructure/linkedList/detectCycle",
-        },
-        {
           text: "两个有序的链表合并",
           link: "/dataStructure/linkedList/mergeTwoLists",
         },
