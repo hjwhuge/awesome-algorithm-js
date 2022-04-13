@@ -54,6 +54,7 @@ KthLargest.prototype.add = function (val) {
   return this.heap.peek();
 };
 
+// 堆方式实现的优先队列
 class MinHeap {
   constructor(data = []) {
     this.data = data;
@@ -79,6 +80,7 @@ class MinHeap {
   // 添加元素
   offer(value) {
     this.data.push(value);
+    // 上浮
     this.bubbleUp(this.size() - 1);
   }
 
@@ -90,14 +92,15 @@ class MinHeap {
     const result = this.data[0];
     const last = this.data.pop();
     if (this.size() !== 0) {
-      // 相当于删掉第一个元素
+      // 相当于删掉第一个元素；并把最后一个元素放到队首，进行下沉
       this.data[0] = last;
+      // 下沉
       this.bubbleDown(0);
     }
     return result;
   }
 
-  // 向上冒泡，把最小元素放置在队列的开头---还需要再补充
+  // 对index号元素执行上浮操作
   bubbleUp(index) {
     while (index > 0) {
       const parentIndex = (index - 1) >> 1;
@@ -110,7 +113,7 @@ class MinHeap {
     }
   }
 
-  // 向下冒泡，把最小元素放置在队列的开头---还需要再补充
+  // 对index号元素执行下沉操作
   bubbleDown(index) {
     const lastIndex = this.size() - 1;
     while (true) {
