@@ -63,7 +63,7 @@ class MinHeap {
     this.heapify();
   }
 
-  // 对数据进行初始化处理
+  // 堆化，对数据进行初始化处理
   heapify() {
     if (this.size() < 2) return;
     for (let i = 1; i < this.size(); i++) {
@@ -100,7 +100,7 @@ class MinHeap {
     return result;
   }
 
-  // 对index号元素执行上浮操作
+  // 从下往上堆化，从最后一个节点开始，每次和父节点做比较，执行上浮操作
   bubbleUp(index) {
     while (index > 0) {
       const parentIndex = (index - 1) >> 1;
@@ -113,7 +113,7 @@ class MinHeap {
     }
   }
 
-  // 对index号元素执行下沉操作
+  // 从上往下堆化，从第一个节点开始，每次和左右子节点做比较，执行下沉操作
   bubbleDown(index) {
     const lastIndex = this.size() - 1;
     while (true) {
