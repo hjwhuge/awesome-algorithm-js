@@ -203,6 +203,16 @@ function getDataStructureSidebar() {
         },
       ],
     },
+    {
+      text: "堆",
+      children: [
+        { text: "堆-简介", link: "/dataStructure/heap/intro" },
+        {
+          text: "堆-基本操作",
+          link: "/dataStructure/heap/basicOperation",
+        },
+      ],
+    },
   ];
 }
 function getAlgorithmSidebar() {
