@@ -74,8 +74,8 @@ function bubbleDown(array, index) {
 
 function createMinHeap(arr) {
   if (arr.length <= 1) return arr;
-  // 从最后一个非叶子节点开始，一直到堆顶元素
-  for (let i = Math.floor(length / 2) - 1; i >= 0; i--) {
+  // 从最后一个非叶子节点开始下沉，一直到堆顶元素
+  for (let i = Math.floor(arr.length / 2) - 1; i >= 0; i--) {
     bubbleDown(arr, i);
   }
   return arr;

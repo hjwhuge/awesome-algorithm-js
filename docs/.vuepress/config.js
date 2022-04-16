@@ -238,6 +238,7 @@ function getAlgorithmSidebar() {
         { text: "选择排序", link: "/algorithm/sort/selectionSort" },
         { text: "归并排序", link: "/algorithm/sort/mergeSort" },
         { text: "快速排序", link: "/algorithm/sort/quickSort" },
+        { text: "堆排序", link: "/algorithm/sort/heapSort" },
         { text: "桶排序", link: "/algorithm/sort/bucketSort" },
         { text: "计数排序", link: "/algorithm/sort/countingSort" },
         { text: "基数排序", link: "/algorithm/sort/radixSort" },
