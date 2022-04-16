@@ -62,3 +62,4 @@
 
 - [堆-概览](./heap/intro.md)
 - [堆-基本操作](./heap/basicOperation.md)
+- [堆-实现优先队列](./heap/priorityqueue.md)

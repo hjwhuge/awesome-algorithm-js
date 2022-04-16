@@ -211,6 +211,10 @@ function getDataStructureSidebar() {
           text: "堆-基本操作",
           link: "/dataStructure/heap/basicOperation",
         },
+        {
+          text: "堆-实现优先队列",
+          link: "/dataStructure/heap/priorityqueue",
+        },
       ],
     },
   ];
