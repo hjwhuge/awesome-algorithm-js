@@ -42,7 +42,7 @@ function createMaxHeap(arr) {
 
 #### 通过下沉的方式实现（小顶堆为列）
 
-- 从第一个元素开始，左右子节点比较
+- 从最后一个非叶子节点开始，和左右子节点比较，一直到堆顶元素
 - 如果大于子节点，该节点下沉（交换位置），并且继续和孙节点判断，直到 没有子节点，终止循环
 - 如果小于子节点，直接跳出循环
 
@@ -74,7 +74,8 @@ function bubbleDown(array, index) {
 
 function createMinHeap(arr) {
   if (arr.length <= 1) return arr;
-  for (let i = 0; i < arr.length - 1; i++) {
+  // 从最后一个非叶子节点开始，一直到堆顶元素
+  for (let i = Math.floor(length / 2) - 1; i >= 0; i--) {
     bubbleDown(arr, i);
   }
   return arr;
