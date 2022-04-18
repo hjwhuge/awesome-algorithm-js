@@ -65,3 +65,10 @@
 - [最小的 k 个数](./heap/getLeastNumbers.md)⭐⭐ 未完成
 - [返回数据流第 K 大元素](./heap/kthLargest.md)⭐⭐
 - [数据流中的中位数](./heap/medianFinder.md)⭐⭐⭐⭐ 未完成
+
+## 字符串
+
+## 拓展数据结构
+
+- [跳表](https://en.wikipedia.org/wiki/Skip_list)
+- [图](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
