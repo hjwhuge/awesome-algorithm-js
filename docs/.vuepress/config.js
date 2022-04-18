@@ -107,10 +107,6 @@ function getDataStructureSidebar() {
         { text: "用队列实现栈", link: "/dataStructure/stackQueue/myStack" },
         { text: "用栈实现队列", link: "/dataStructure/stackQueue/myQueue" },
         {
-          text: "返回数据流第 K 大元素",
-          link: "/dataStructure/stackQueue/kthLargest",
-        },
-        {
           text: "返回滑动窗口的最大值",
           link: "/dataStructure/stackQueue/maxSlidingWindow",
         },
@@ -214,6 +210,18 @@ function getDataStructureSidebar() {
         {
           text: "堆-实现优先队列",
           link: "/dataStructure/heap/priorityqueue",
+        },
+        {
+          text: "最小的 k 个数",
+          link: "/dataStructure/heap/getLeastNumbers",
+        },
+        {
+          text: "返回数据流第 K 大元素",
+          link: "/dataStructure/heap/kthLargest",
+        },
+        {
+          text: "数据流中的中位数",
+          link: "/dataStructure/heap/medianFinder",
         },
       ],
     },

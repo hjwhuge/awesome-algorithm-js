@@ -22,7 +22,6 @@
 - [判断括号字符串是否有效](./stackQueue/isValid.md)⭐⭐
 - [用队列实现栈](./stackQueue/myStack.md)⭐⭐
 - [用栈实现队列](./stackQueue/myQueue.md)⭐⭐
-- [返回数据流第 K 大元素](./stackQueue/kthLargest.md)⭐⭐
 - [返回滑动窗口的最大值](./stackQueue/maxSlidingWindow.md)⭐⭐⭐⭐ 未完成
 
 ## 哈希表
@@ -63,3 +62,6 @@
 - [堆-概览](./heap/intro.md)
 - [堆-基本操作](./heap/basicOperation.md)
 - [堆-实现优先队列](./heap/priorityqueue.md)
+- [最小的 k 个数](./heap/getLeastNumbers.md)⭐⭐ 未完成
+- [返回数据流第 K 大元素](./heap/kthLargest.md)⭐⭐
+- [数据流中的中位数](./heap/medianFinder.md)⭐⭐⭐⭐ 未完成
