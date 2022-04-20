@@ -62,7 +62,7 @@
 - [堆-概览](./heap/intro.md)
 - [堆-基本操作](./heap/basicOperation.md)
 - [堆-实现优先队列](./heap/priorityqueue.md)
-- [最小的 k 个数](./heap/getLeastNumbers.md)⭐⭐ 未完成
+- [最小的 k 个数](./heap/getLeastNumbers.md)⭐⭐
 - [返回数据流第 K 大元素](./heap/kthLargest.md)⭐⭐
 - [数据流中的中位数](./heap/medianFinder.md)⭐⭐⭐⭐ 未完成
 
