@@ -68,7 +68,4 @@
 
 ## 字符串
 
-## 拓展数据结构
-
-- [跳表](https://en.wikipedia.org/wiki/Skip_list)
-- [图](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
+## 图

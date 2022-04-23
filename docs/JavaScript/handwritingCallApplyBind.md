@@ -1,45 +1,48 @@
-# 手写call函数和apply函数
-# 手写call函数
-***
+## 手写 call 函数和 apply 函数
+
+### 手写 call 函数
+
+---
+
 ```javascript
-    Function.prototype.call2 = function (context) {
-        var context = context || window;
-        context.fn = this;
+Function.prototype.call2 = function (context) {
+  var context = context || window;
+  context.fn = this;
 
-        var args = [];
-        for(var i = 1, len = arguments.length; i < len; i++) {
-            args.push('arguments[' + i + ']');
-        }
+  var args = [];
+  for (var i = 1, len = arguments.length; i < len; i++) {
+    args.push("arguments[" + i + "]");
+  }
 
-        var result = eval('context.fn(' + args +')');
+  var result = eval("context.fn(" + args + ")");
 
-        delete context.fn
-        return result;
-    }
+  delete context.fn;
+  return result;
+};
 
-    // 测试一下
-    var value = 2;
+// 测试一下
+var value = 2;
 
-    var obj = {
-        value: 1
-    }
+var obj = {
+  value: 1,
+};
 
-    function bar(name, age) {
-        console.log(this.value);
-        return {
-            value: this.value,
-            name: name,
-            age: age
-        }
-    }
+function bar(name, age) {
+  console.log(this.value);
+  return {
+    value: this.value,
+    name: name,
+    age: age,
+  };
+}
 
-    bar.call2(null); // 2
+bar.call2(null); // 2
 
-    console.log(bar.call2(obj, 'kevin', 18));
-    // 1
-    // Object {
-    //    value: 1,
-    //    name: 'kevin',
-    //    age: 18
-    // }
+console.log(bar.call2(obj, "kevin", 18));
+// 1
+// Object {
+//    value: 1,
+//    name: 'kevin',
+//    age: 18
+// }
 ```

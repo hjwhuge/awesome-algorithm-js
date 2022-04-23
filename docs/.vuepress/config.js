@@ -225,6 +225,14 @@ function getDataStructureSidebar() {
         },
       ],
     },
+    {
+      text: "字符串",
+      children: [{ text: "字符串-简介", link: "/dataStructure/string/intro" }],
+    },
+    {
+      text: "图",
+      children: [{ text: "图-简介", link: "/dataStructure/graph/intro" }],
+    },
   ];
 }
 function getAlgorithmSidebar() {
@@ -251,6 +259,10 @@ function getAlgorithmSidebar() {
         { text: "计数排序", link: "/algorithm/sort/countingSort" },
         { text: "基数排序", link: "/algorithm/sort/radixSort" },
       ],
+    },
+    {
+      text: "查找",
+      children: [{ text: "查找-概览", link: "/algorithm/find/intro" }],
     },
     {
       text: "递归",
@@ -300,6 +312,10 @@ function getAboutSidebar() {
     {
       text: "数据结构与算法",
       link: "/about/explanation",
+    },
+    {
+      text: "更新计划",
+      link: "/about/plan",
     },
   ];
 }
