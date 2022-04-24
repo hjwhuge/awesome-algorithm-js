@@ -231,7 +231,10 @@ function getDataStructureSidebar() {
     },
     {
       text: "图",
-      children: [{ text: "图-简介", link: "/dataStructure/graph/intro" }],
+      children: [
+        { text: "图-简介", link: "/dataStructure/graph/intro" },
+        { text: "图-基本操作", link: "/dataStructure/graph/basicOperation" },
+      ],
     },
   ];
 }

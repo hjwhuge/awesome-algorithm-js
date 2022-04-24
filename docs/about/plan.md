@@ -15,6 +15,7 @@ console.log("Hello, It's a test!");
 
 ### 算法
 
+- :white_large_square: 深度优先查找/广度优先查找
 - :white_large_square: 查找（二分查找）
 - :white_large_square: 字符串匹配
 - :white_large_square: 贪心算法
