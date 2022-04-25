@@ -73,4 +73,4 @@
 ## 图
 
 - [图-概览](./graph/intro.md)
-- [图-基本操作](./graph/basicOperation.md)
+- [图-基本操作/搜索](./graph/basicOperation.md)
