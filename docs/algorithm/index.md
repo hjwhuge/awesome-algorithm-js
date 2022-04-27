@@ -22,3 +22,7 @@
 - [递归-跳台阶](./recursion/jumpFloor.md)
 - [递归-实现 pow 函数](./recursion/pow.md)
 - 求众数
+
+## 搜索
+
+- [BFS 和 DFS](./search/bfsanddfs.md)

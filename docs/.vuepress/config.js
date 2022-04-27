@@ -279,6 +279,10 @@ function getAlgorithmSidebar() {
         { text: "递归-实现pow函数", link: "/algorithm/recursion/pow" },
       ],
     },
+    {
+      text: "搜索",
+      children: [{ text: "BFS 和 DFS", link: "/algorithm/search/bfsanddfs" }],
+    },
   ];
 }
 function getDesignPatternSidebar() {
