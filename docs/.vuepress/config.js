@@ -248,6 +248,15 @@ function getAlgorithmSidebar() {
       link: "/algorithm/",
     },
     {
+      text: "递归",
+      children: [
+        { text: "递归-概览", link: "/algorithm/recursion/intro" },
+        { text: "递归-斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
+        { text: "递归-跳台阶", link: "/algorithm/recursion/jumpFloor" },
+        { text: "递归-实现pow函数", link: "/algorithm/recursion/pow" },
+      ],
+    },
+    {
       text: "排序",
       children: [
         { text: "排序-概览", link: "/algorithm/sort/intro" },
@@ -263,21 +272,12 @@ function getAlgorithmSidebar() {
       ],
     },
     {
-      text: "查找",
-      children: [{ text: "查找-概览", link: "/algorithm/find/intro" }],
-    },
-    {
-      text: "递归",
-      children: [
-        { text: "递归-概览", link: "/algorithm/recursion/intro" },
-        { text: "递归-斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
-        { text: "递归-跳台阶", link: "/algorithm/recursion/jumpFloor" },
-        { text: "递归-实现pow函数", link: "/algorithm/recursion/pow" },
-      ],
-    },
-    {
       text: "搜索",
       children: [{ text: "BFS 和 DFS", link: "/algorithm/search/bfsanddfs" }],
+    },
+    {
+      text: "查找",
+      children: [{ text: "查找-概览", link: "/algorithm/find/intro" }],
     },
   ];
 }

@@ -1,3 +1,21 @@
+> 常用的算法思想：贪心算法、分治算法、回溯算法、动态规划，通过这些思想，我们可以设计具体的算法和编码.
+
+## 贪心算法
+
+## 分治算法
+
+## 回溯算法
+
+## 动态规划
+
+## 递归
+
+- [递归-概览](./recursion/intro.md)
+- [递归-斐波拉契数列](./recursion/fibonacci.md)
+- [递归-跳台阶](./recursion/jumpFloor.md)
+- [递归-实现 pow 函数](./recursion/pow.md)
+- 求众数
+
 ## 排序
 
 - [排序-概览](./sort/intro.md)
@@ -11,18 +29,33 @@
 - 计数排序
 - 基数排序
 
+## 搜索
+
+- [BFS 和 DFS](./search/bfsanddfs.md)
+
 ## 查找
 
 - [查找-概览](./find/intro.md)
 
-## 递归
+## 数学运算
 
-- [递归-概览](./recursion/intro.md)
-- [递归-斐波拉契数列](./recursion/fibonacci.md)
-- [递归-跳台阶](./recursion/jumpFloor.md)
-- [递归-实现 pow 函数](./recursion/pow.md)
-- 求众数
+- 二进制中 1 的个数
+- 数值的整数次方
+- 数组中只出现一次的数字
+- 不用加减乘除做加法
+- 字符串转换成整数
+- 整数中 1 出现的次数
+- 1+2+3+...+n
+- 丑数
 
-## 搜索
+## 拓展学习
 
-- [BFS 和 DFS](./search/bfsanddfs.md)
+- 字符串匹配算法
+  - BF、RK、BM、KMP、Trie 树、AC 自动机
+- 数论
+- 计算几何
+- 概率分析
+- 并查集
+- 拓扑网络
+- 矩阵运算
+- 线性规划
