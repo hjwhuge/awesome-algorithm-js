@@ -66,10 +66,6 @@
 - [返回数据流第 K 大元素](./heap/kthLargest.md)⭐⭐
 - [数据流中的中位数](./heap/medianFinder.md)⭐⭐⭐⭐
 
-## 字符串
-
-- [字符串-概览](./tree/intro.md)
-
 ## 图
 
 - [图-概览](./graph/intro.md)

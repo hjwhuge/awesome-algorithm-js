@@ -226,10 +226,6 @@ function getDataStructureSidebar() {
       ],
     },
     {
-      text: "字符串",
-      children: [{ text: "字符串-简介", link: "/dataStructure/string/intro" }],
-    },
-    {
       text: "图",
       children: [
         { text: "图-简介", link: "/dataStructure/graph/intro" },
