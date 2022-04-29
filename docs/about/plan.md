@@ -15,7 +15,6 @@ console.log("Hello, It's a test!");
 ### JavaScript
 
 - :white_large_square:手写 instanceof
-- :white_large_square:手写 call、bind、apply
 - :white_large_square:实现 promise
 - :white_large_square:防抖
 - :white_large_square:节流
