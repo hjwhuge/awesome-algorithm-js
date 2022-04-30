@@ -36,6 +36,7 @@
 ## 查找
 
 - [查找-概览](./find/intro.md)
+- [查找-基本操作](./find/basicOperation.md)
 
 ## 数学运算
 

@@ -277,7 +277,10 @@ function getAlgorithmSidebar() {
     },
     {
       text: "查找",
-      children: [{ text: "查找-概览", link: "/algorithm/find/intro" }],
+      children: [
+        { text: "查找-概览", link: "/algorithm/find/intro" },
+        { text: "查找-基本操作", link: "/algorithm/find/basicOperation" },
+      ],
     },
   ];
 }
