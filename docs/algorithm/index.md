@@ -1,13 +1,5 @@
 > 常用的算法思想：贪心算法、分治算法、回溯算法、动态规划，通过这些思想，我们可以设计具体的算法和编码.
 
-## 贪心算法
-
-## 分治算法
-
-## 回溯算法
-
-## 动态规划
-
 ## 递归
 
 - [递归-概览](./recursion/intro.md)
@@ -37,6 +29,22 @@
 
 - [查找-概览](./find/intro.md)
 - [查找-基本操作](./find/basicOperation.md)
+
+## 贪心算法
+
+- [贪心算法-概览](./greedy/intro.md)
+
+## 分治算法
+
+- [分治算法-概览](./divideAndConquer/intro.md)
+
+## 回溯算法
+
+- [回溯算法-概览](./backTranking/intro.md)
+
+## 动态规划
+
+- [动态规划-概览](./dynamicProgramming/intro.md)
 
 ## 数学运算
 

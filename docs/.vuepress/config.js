@@ -282,6 +282,31 @@ function getAlgorithmSidebar() {
         { text: "查找-基本操作", link: "/algorithm/find/basicOperation" },
       ],
     },
+    {
+      text: "贪心算法",
+      children: [{ text: "贪心算法-概览", link: "/algorithm/greedy/intro" }],
+    },
+    {
+      text: "分治算法",
+      children: [
+        { text: "分治算法-概览", link: "/algorithm/divideAndConquer/intro" },
+      ],
+    },
+    {
+      text: "回溯算法",
+      children: [
+        { text: "回溯算法-概览", link: "/algorithm/backTranking/intro" },
+      ],
+    },
+    {
+      text: "动态规划",
+      children: [
+        {
+          text: "动态规划-概览",
+          link: "/algorithm/dynamicProgramming/intro",
+        },
+      ],
+    },
   ];
 }
 function getDesignPatternSidebar() {
