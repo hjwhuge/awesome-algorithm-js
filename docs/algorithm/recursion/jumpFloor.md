@@ -23,8 +23,26 @@ function jumpFloor(n) {
 }
 ```
 
-#### 动态规划版本
+#### 循环解法
+
+从下往上计算
 
 ```js
-
+function Fibonacci(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  let i = 1;
+  let pre = 1;
+  let current = 1;
+  let result = 0;
+  while (i++ < n) {
+    result = pre + current;
+    // leetcode 解题需要对result取模
+    // result = (pre + current) % 1000000007;
+    pre = current;
+    current = result;
+  }
+  return result;
+}
 ```

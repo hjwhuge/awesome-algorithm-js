@@ -46,8 +46,24 @@ function fib(n, memory = []) {
 }
 ```
 
-#### 动态规划解法
+#### 循环解法
+
+从下往上计算
 
 ```js
+function Fibonacci(n) {
+  if (n <= 1) {
+    return n;
+  }
 
+  let pre = 0;
+  let current = 1;
+  let result = 0;
+  for (let i = 1; i < n; i++) {
+    result = pre + current;
+    pre = current;
+    current = result;
+  }
+  return result;
+}
 ```

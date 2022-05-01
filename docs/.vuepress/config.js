@@ -248,7 +248,7 @@ function getAlgorithmSidebar() {
       link: "/algorithm/",
     },
     {
-      text: "递归",
+      text: "递归和循环",
       children: [
         { text: "递归-概览", link: "/algorithm/recursion/intro" },
         { text: "递归-斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
