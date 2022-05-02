@@ -292,7 +292,10 @@ function getAlgorithmSidebar() {
     },
     {
       text: "贪心算法",
-      children: [{ text: "贪心算法-概览", link: "/algorithm/greedy/intro" }],
+      children: [
+        { text: "贪心算法-概览", link: "/algorithm/greedy/intro" },
+        { text: "买卖股票的最佳时机 II", link: "/algorithm/greedy/maxProfit" },
+      ],
     },
     {
       text: "分治算法",
