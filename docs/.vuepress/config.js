@@ -158,6 +158,10 @@ function getDataStructureSidebar() {
           link: "/dataStructure/binaryTree/postOrder",
         },
         {
+          text: "二叉树的层序遍历",
+          link: "/dataStructure/binaryTree/levelOrder",
+        },
+        {
           text: "重建二叉树",
           link: "/dataStructure/binaryTree/build",
         },
@@ -273,7 +277,10 @@ function getAlgorithmSidebar() {
     },
     {
       text: "搜索",
-      children: [{ text: "BFS 和 DFS", link: "/algorithm/search/bfsanddfs" }],
+      children: [
+        { text: "BFS 和 DFS", link: "/algorithm/search/bfsanddfs" },
+        { text: "括号生成", link: "/algorithm/search/generateParenthesis" },
+      ],
     },
     {
       text: "查找",

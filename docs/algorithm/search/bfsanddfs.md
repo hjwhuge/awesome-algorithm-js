@@ -12,10 +12,7 @@
 
 相关题目（leetcode）
 
-- 从上到下打印二叉树
-- [单词接龙](https://leetcode-cn.com/problems/word-ladder/)
-- [员工的重要性](https://leetcode-cn.com/problems/employee-importance/)
-- [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+- [二叉树的层序遍历](../../dataStructure/binaryTree/levelOrder.md)
 
 ### 深度优先搜索（DFS）
 
@@ -34,8 +31,14 @@
 
 相关题目（leetcode）
 
-- 二叉树的中序遍历
-- 二叉树的最大深度
+- [二叉树的中序遍历](../../dataStructure/binaryTree/inOrder.md)
+- [二叉树的最大深度](../../dataStructure/binaryTree/maxDepth.md)
+
+#### 拓展训练题目
+
+- [括号生成](./generateParenthesis.md) 未完成
+- [单词接龙](https://leetcode-cn.com/problems/word-ladder/)
+- [员工的重要性](https://leetcode-cn.com/problems/employee-importance/)
 - [路径总和](https://leetcode-cn.com/problems/path-sum/)
 - [课程表](https://leetcode-cn.com/problems/course-schedule/)
 - [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
