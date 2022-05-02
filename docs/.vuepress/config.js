@@ -251,9 +251,9 @@ function getAlgorithmSidebar() {
       text: "递归和循环",
       children: [
         { text: "递归-概览", link: "/algorithm/recursion/intro" },
-        { text: "递归-斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
-        { text: "递归-跳台阶", link: "/algorithm/recursion/jumpFloor" },
-        { text: "递归-实现pow函数", link: "/algorithm/recursion/pow" },
+        { text: "斐波拉契数列", link: "/algorithm/recursion/fibonacci" },
+        { text: "跳台阶", link: "/algorithm/recursion/jumpFloor" },
+        { text: "实现pow函数", link: "/algorithm/recursion/pow" },
       ],
     },
     {
@@ -290,6 +290,10 @@ function getAlgorithmSidebar() {
       text: "分治算法",
       children: [
         { text: "分治算法-概览", link: "/algorithm/divideAndConquer/intro" },
+        {
+          text: "多数元素",
+          link: "/algorithm/divideAndConquer/majorityElement",
+        },
       ],
     },
     {
