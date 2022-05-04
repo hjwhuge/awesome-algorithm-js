@@ -24,6 +24,17 @@
 
 ### 代码实现
 
-```js
+#### 贪心实现
 
+遍历数组，如果当天比前一天更贵，则说明可以在前一天买入，当天卖出
+
+```js
+var maxProfit = function (prices) {
+  let res = 0;
+  let n = prices.length;
+  for (let i = 1; i < n; i++) {
+    res += Math.max(0, prices[i] - prices[i - 1]);
+  }
+  return res;
+};
 ```
