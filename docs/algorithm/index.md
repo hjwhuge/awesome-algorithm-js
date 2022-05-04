@@ -34,7 +34,7 @@
 ## 贪心算法
 
 - [贪心算法-概览](./greedy/intro.md)
-- [买卖股票的最佳时机 II](./greedy/maxProfit.md)
+- [买卖股票的最佳时机 II](./greedy/maxProfit.md)⭐⭐⭐
 
 ## 分治算法
 
@@ -44,6 +44,7 @@
 ## 回溯算法
 
 - [回溯算法-概览](./backTranking/intro.md)
+- [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐ 未完成
 
 ## 动态规划
 

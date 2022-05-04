@@ -42,3 +42,7 @@
 - [路径总和](https://leetcode-cn.com/problems/path-sum/)
 - [课程表](https://leetcode-cn.com/problems/course-schedule/)
 - [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+
+### 剪枝
+
+是一种搜索时经常运用到的策略，在搜索时，根据一些规则，忽略掉一些确定不需要遍历的分支

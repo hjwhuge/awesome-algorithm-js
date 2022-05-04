@@ -311,6 +311,7 @@ function getAlgorithmSidebar() {
       text: "回溯算法",
       children: [
         { text: "回溯算法-概览", link: "/algorithm/backTranking/intro" },
+        { text: "N 皇后", link: "/algorithm/backTranking/solveNQueens" },
       ],
     },
     {
