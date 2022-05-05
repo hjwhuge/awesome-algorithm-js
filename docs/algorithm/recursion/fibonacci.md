@@ -21,6 +21,8 @@ f(n) = f(n-1) + f(n-2)这种拆分使用递归是典型的存在重叠的情况�
 
 #### 递归解法
 
+时间复杂度 O(n²)
+
 ```js
 function fib(n) {
   if (n === 0 || n === 1) {
@@ -33,6 +35,7 @@ function fib(n) {
 #### 递归+记忆解法
 
 使用一个数组缓存计算过的值。
+时间复杂度 O(n)
 
 ```js
 function fib(n, memory = []) {
@@ -46,9 +49,9 @@ function fib(n, memory = []) {
 }
 ```
 
-#### 循环解法
+#### 递推解法
 
-从下往上计算
+从下往上计算，简单动态规划的应用
 
 ```js
 function Fibonacci(n) {
