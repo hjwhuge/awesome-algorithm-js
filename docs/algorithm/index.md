@@ -44,7 +44,7 @@
 ## 回溯算法
 
 - [回溯算法-概览](./backTranking/intro.md)
-- [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐ 未完成
+- [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐
 
 ## 动态规划
 
