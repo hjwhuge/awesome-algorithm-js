@@ -31,6 +31,12 @@
 - [查找-基本操作](./find/basicOperation.md)
 - [实现求平方根函数](./find/mySqrt.md)⭐⭐ 未完成
 
+## 位运算
+
+- [位运算-概览](./bit/intro.md)
+- [位 1 的个数](./bit/hammingWeight.md)⭐⭐ 未完成
+- [2 的幂](./bit/isPowerOfTwo.md)⭐⭐ 未完成
+
 ## 贪心算法
 
 - [贪心算法-概览](./greedy/intro.md)

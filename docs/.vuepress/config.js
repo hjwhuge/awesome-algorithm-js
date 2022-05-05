@@ -291,6 +291,14 @@ function getAlgorithmSidebar() {
       ],
     },
     {
+      text: "位运算",
+      children: [
+        { text: "位运算-概览", link: "/algorithm/bit/intro" },
+        { text: "位1的个数", link: "/algorithm/bit/hammingWeight" },
+        { text: "2的幂", link: "/algorithm/bit/isPowerOfTwo" },
+      ],
+    },
+    {
       text: "贪心算法",
       children: [
         { text: "贪心算法-概览", link: "/algorithm/greedy/intro" },
