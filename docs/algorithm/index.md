@@ -55,7 +55,7 @@
 ## 动态规划
 
 - [动态规划-概览](./dynamicProgramming/intro.md)
-- [爬楼梯](./backTranking/climbStairs.md)⭐⭐ 未完成
+- [爬楼梯](./backTranking/climbStairs.md)⭐⭐
 - [三角形最小路径和](./backTranking/minimumTotal.md)⭐⭐⭐ 未完成
 - [乘积最大子数组](./backTranking/maxProduct.md)⭐⭐⭐ 未完成
 - [股票买卖系列](./backTranking/stock.md)⭐⭐⭐ 未完成
