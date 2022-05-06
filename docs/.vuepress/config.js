@@ -294,6 +294,7 @@ function getAlgorithmSidebar() {
       text: "位运算",
       children: [
         { text: "位运算-概览", link: "/algorithm/bit/intro" },
+        { text: "只出现一次的数字", link: "/algorithm/bit/singleNumber" },
         { text: "位1的个数", link: "/algorithm/bit/hammingWeight" },
         { text: "2的幂", link: "/algorithm/bit/isPowerOfTwo" },
       ],

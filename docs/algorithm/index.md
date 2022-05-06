@@ -34,6 +34,7 @@
 ## 位运算
 
 - [位运算-概览](./bit/intro.md)
+- [只出现一次的数字](./bit/singleNumber.md)⭐⭐
 - [位 1 的个数](./bit/hammingWeight.md)⭐⭐ 未完成
 - [2 的幂](./bit/isPowerOfTwo.md)⭐⭐ 未完成
 
