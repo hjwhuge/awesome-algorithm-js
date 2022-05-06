@@ -329,6 +329,34 @@ function getAlgorithmSidebar() {
           text: "动态规划-概览",
           link: "/algorithm/dynamicProgramming/intro",
         },
+        {
+          text: "爬楼梯",
+          link: "/algorithm/dynamicProgramming/climbStairs",
+        },
+        {
+          text: "三角形最小路径和",
+          link: "/algorithm/dynamicProgramming/minimumTotal",
+        },
+        {
+          text: "乘积最大子数组",
+          link: "/algorithm/dynamicProgramming/maxProduct",
+        },
+        {
+          text: "股票买卖系列",
+          link: "/algorithm/dynamicProgramming/stock",
+        },
+        {
+          text: "最长递增子序列",
+          link: "/algorithm/dynamicProgramming/lengthOfLIS",
+        },
+        {
+          text: "零钱兑换",
+          link: "/algorithm/dynamicProgramming/coinChange",
+        },
+        {
+          text: "编辑距离",
+          link: "/algorithm/dynamicProgramming/minDistance",
+        },
       ],
     },
   ];
