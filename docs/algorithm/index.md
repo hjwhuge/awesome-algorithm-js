@@ -55,13 +55,13 @@
 ## 动态规划
 
 - [动态规划-概览](./dynamicProgramming/intro.md)
-- [爬楼梯](./backTranking/climbStairs.md)⭐⭐
-- [三角形最小路径和](./backTranking/minimumTotal.md)⭐⭐⭐ 未完成
-- [乘积最大子数组](./backTranking/maxProduct.md)⭐⭐⭐ 未完成
-- [股票买卖系列](./backTranking/stock.md)⭐⭐⭐ 未完成
-- [最长递增子序列](./backTranking/lengthOfLIS.md)⭐⭐⭐
-- [零钱兑换](./backTranking/coinChange.md)⭐⭐⭐ 未完成
-- [编辑距离](./backTranking/minDistance.md)⭐⭐⭐⭐ 未完成
+- [爬楼梯](./dynamicProgramming/climbStairs.md)⭐⭐
+- [三角形最小路径和](./dynamicProgramming/minimumTotal.md)⭐⭐⭐
+- [乘积最大子数组](./dynamicProgramming/maxProduct.md)⭐⭐⭐ 未完成
+- [股票买卖系列](./dynamicProgramming/stock.md)⭐⭐⭐ 未完成
+- [最长递增子序列](./dynamicProgramming/lengthOfLIS.md)⭐⭐⭐
+- [零钱兑换](./dynamicProgramming/coinChange.md)⭐⭐⭐ 未完成
+- [编辑距离](./dynamicProgramming/minDistance.md)⭐⭐⭐⭐ 未完成
 
 ## 拓展学习
 

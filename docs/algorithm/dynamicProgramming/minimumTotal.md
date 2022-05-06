@@ -23,6 +23,24 @@
 
 ### 代码实现
 
-```js
+- 采用动态规划实现
+  - 实现方式从下往上递推
+  - 状态定义：以 triangle 最后一项为基础
+  - 状态转移方程：dp[i][j] = triangle[i][j] + Math.min(dp[i+1][j], dp[i+1][j+1]);
+    - 从 triangle 倒数第二项开始，获取最小路径和
+    - 最终结果存储在 dp[0][0]，所以 dp 可以简化成使用一维数组
 
+```js
+var minimumTotal = function (triangle) {
+  let dp = triangle[triangle.length - 1];
+  // 从倒数第二项开始，直到第1项
+  for (let i = triangle.length - 2; i >= 0; i--) {
+    // 求出最小路径和
+    for (let j = 0; j < triangle[i].length; j++) {
+      dp[j] = triangle[i][j] + Math.min(dp[j], dp[j + 1]);
+    }
+  }
+  // 此时dp[0]即存储着最小路径和
+  return dp[0];
+};
 ```
