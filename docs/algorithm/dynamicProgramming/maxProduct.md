@@ -20,6 +20,36 @@
 
 ### 代码实现
 
-```js
+动态规划实现
 
+- 状态定义：dp[[i,j]]
+  - 二维数组，存储每个值的最大乘积和最小乘积
+- 状态转移方程（不考虑偶数个负数）：opt[n] = Math.max(dp[i-1] \* a[i], a[i]);
+  - 其中 a[i]表示当前值
+  - 当前最大乘积为前一个的最大乘积乘以自身
+  - 代码具体实现会更加复杂，需要考虑到偶数个负数的情况，而且还要记录下当前值的最小值，用于后续计算
+    - 当前的最大值：max[i] = max(prevMax \* a[i], prevMin \* a[i])
+
+```js
+var maxProduct = function (nums) {
+  let dp = [];
+  let res = nums[0];
+  for (let i = 0; i < nums.length; i++) {
+    dp[i] = [nums[i], nums[i]];
+  }
+  for (let i = 1; i < nums.length; i++) {
+    const prevMax = dp[i - 1][0];
+    const prevMin = dp[i - 1][1];
+    dp[i][0] = Math.max(
+      Math.max(prevMax * nums[i], prevMin * nums[i]),
+      nums[i]
+    );
+    dp[i][1] = Math.min(
+      Math.min(prevMax * nums[i], prevMin * nums[i]),
+      nums[i]
+    );
+    res = Math.max(res, dp[i][0]);
+  }
+  return res;
+};
 ```
