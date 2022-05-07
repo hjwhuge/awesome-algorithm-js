@@ -51,6 +51,8 @@
 ## 回溯算法
 
 - [回溯算法-概览](./backTranking/intro.md)
+- [矩阵中的路径](./backTranking/exist.md)⭐⭐⭐ 未完成
+- [机器人的运动范围](./backTranking/movingCount.md)⭐⭐⭐ 未完成
 - [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐
 
 ## 动态规划
@@ -61,6 +63,7 @@
 - [乘积最大子数组](./dynamicProgramming/maxProduct.md)⭐⭐⭐
 - [股票买卖系列](./dynamicProgramming/stock.md)⭐⭐⭐ 未完成
 - [最长递增子序列](./dynamicProgramming/lengthOfLIS.md)⭐⭐⭐
+- [剪绳子](./dynamicProgramming/cuttingRope.md)⭐⭐⭐ 未完成
 - [零钱兑换](./dynamicProgramming/coinChange.md)⭐⭐⭐ 未完成
 - [编辑距离](./dynamicProgramming/minDistance.md)⭐⭐⭐⭐ 未完成
 

@@ -318,6 +318,11 @@ function getAlgorithmSidebar() {
       text: "回溯算法",
       children: [
         { text: "回溯算法-概览", link: "/algorithm/backTranking/intro" },
+        { text: "矩阵中的路径", link: "/algorithm/backTranking/exist" },
+        {
+          text: "机器人的运动范围",
+          link: "/algorithm/backTranking/movingCount",
+        },
         { text: "N 皇后", link: "/algorithm/backTranking/solveNQueens" },
       ],
     },
@@ -347,6 +352,10 @@ function getAlgorithmSidebar() {
         {
           text: "最长递增子序列",
           link: "/algorithm/dynamicProgramming/lengthOfLIS",
+        },
+        {
+          text: "剪绳子",
+          link: "/algorithm/dynamicProgramming/cuttingRope",
         },
         {
           text: "零钱兑换",
