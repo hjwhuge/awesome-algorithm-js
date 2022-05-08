@@ -324,6 +324,7 @@ function getAlgorithmSidebar() {
           link: "/algorithm/backTranking/movingCount",
         },
         { text: "N 皇后", link: "/algorithm/backTranking/solveNQueens" },
+        { text: "N皇后 II", link: "/algorithm/backTranking/totalNQueens" },
       ],
     },
     {

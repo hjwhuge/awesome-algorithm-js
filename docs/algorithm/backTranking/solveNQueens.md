@@ -18,6 +18,8 @@ n  皇后问题 研究的是如何将 n  个皇后放置在 n×n 的棋盘上�
 
 ### 代码实现
 
+#### 回溯思想实现
+
 ```js
 let result = []; //全局变量,下标表示行,值表示Q存储在哪一列
 let solutions = []; //最终输出结果
@@ -79,3 +81,7 @@ function printQueens(result, n) {
   solutions.push(arr);
 }
 ```
+
+#### 位运算实现
+
+可以参考 52 题实现

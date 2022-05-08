@@ -46,7 +46,7 @@
 ## 分治算法
 
 - [分治算法-概览](./divideAndConquer/intro.md)
-- [多数元素](./divideAndConquer/majorityElement.md)⭐⭐ 未完成
+- [多数元素](./divideAndConquer/majorityElement.md)⭐⭐
 
 ## 回溯算法
 
@@ -54,6 +54,7 @@
 - [矩阵中的路径](./backTranking/exist.md)⭐⭐⭐ 未完成
 - [机器人的运动范围](./backTranking/movingCount.md)⭐⭐⭐ 未完成
 - [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐
+- [N 皇后 II](./backTranking/totalNQueens.md)⭐⭐⭐⭐
 
 ## 动态规划
 
