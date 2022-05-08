@@ -33,7 +33,7 @@ function bsearchInternally(data = [], low, high, value) {
 function bsearch(data = [], n, value) {
   let low = 0;
   let high = n - 1;
-  while (high >= low) {
+  while (low <= high) {
     // 求中间元素
     let mid = (high + low) >> 1;
     if (data[mid] == value) {
@@ -75,7 +75,7 @@ console.log(idx);
 function bsearch(data = [], n, value) {
   let low = 0;
   let high = n - 1;
-  while (high >= low) {
+  while (low <= high) {
     // 求中间元素
     let mid = (high + low) >> 1;
     if (data[mid] == value) {
@@ -105,7 +105,7 @@ const idx = bsearch(arr, arr.length, 8); // 5
 function bsearch(data = [], n, value) {
   let low = 0;
   let high = n - 1;
-  while (high >= low) {
+  while (low <= high) {
     // 求中间元素
     let mid = (high + low) >> 1;
     if (data[mid] == value) {
@@ -135,7 +135,7 @@ const idx = bsearch(arr, arr.length, 8); // 7
 function bsearch(data = [], n, value) {
   let low = 0;
   let high = n - 1;
-  while (high >= low) {
+  while (low <= high) {
     // 求中间元素
     let mid = (high + low) >> 1;
     if (data[mid] >= value) {
@@ -163,7 +163,7 @@ const idx = bsearch(arr, arr.length, 5); // 1
 function bsearch(data = [], n, value) {
   let low = 0;
   let high = n - 1;
-  while (high >= low) {
+  while (low <= high) {
     // 求中间元素
     let mid = (high + low) >> 1;
     if (data[mid] <= value) {

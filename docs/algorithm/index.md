@@ -28,8 +28,8 @@
 ## 查找
 
 - [查找-概览](./find/intro.md)
-- [查找-基本操作](./find/basicOperation.md)
-- [实现求平方根函数](./find/mySqrt.md)⭐⭐ 未完成
+- [二分查找-基本操作](./find/basicOperation.md)
+- [实现求平方根函数](./find/mySqrt.md)⭐⭐
 
 ## 位运算
 
