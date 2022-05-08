@@ -23,7 +23,7 @@
 ## 搜索
 
 - [BFS 和 DFS](./search/bfsanddfs.md)
-- [括号生成](./search/generateParenthesis.md)⭐⭐⭐ 未完成
+- [括号生成](./search/generateParenthesis.md)⭐⭐⭐
 
 ## 查找
 
