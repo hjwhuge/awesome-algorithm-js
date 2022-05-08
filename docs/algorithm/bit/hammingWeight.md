@@ -16,6 +16,38 @@
 
 ### 代码实现
 
-```js
+#### 位运算实现
 
+- 把输入数值和 1 循环比对，如果相与为 1，说明存在一个 1
+- 时间复杂度 O(32)
+
+```js
+var hammingWeight = function (n) {
+  let res = 0;
+  for (let i = 0; i < 32; i++) {
+    if (n & (1 << i)) {
+      res++;
+    }
+  }
+  return res;
+};
+```
+
+#### 位运算优化版实现
+
+- 执行一次 n = n & (n - 1)相当于去除掉 n 最后一位 1
+  - eg：n = 1100
+    - 执行第一次：1100 & 1011 = 1000；清除最低位 1
+    - 执行第二次：1000 & 0111 = 0000；清除最低位 1
+- 时间复杂度 O(n 中 1 的个数)
+
+```js
+var hammingWeight = function (n) {
+  let res = 0;
+  while (n) {
+    res++;
+    n = n & (n - 1);
+  }
+  return res;
+};
 ```
