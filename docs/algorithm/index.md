@@ -64,7 +64,7 @@
 - [乘积最大子数组](./dynamicProgramming/maxProduct.md)⭐⭐⭐
 - [股票买卖系列](./dynamicProgramming/stock.md)⭐⭐⭐ 未完成
 - [最长递增子序列](./dynamicProgramming/lengthOfLIS.md)⭐⭐⭐
-- [剪绳子](./dynamicProgramming/cuttingRope.md)⭐⭐⭐ 未完成
+- [剪绳子](./dynamicProgramming/cuttingRope.md)⭐⭐⭐
 - [零钱兑换](./dynamicProgramming/coinChange.md)⭐⭐⭐ 未完成
 - [编辑距离](./dynamicProgramming/minDistance.md)⭐⭐⭐⭐ 未完成
 
