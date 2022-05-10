@@ -50,5 +50,19 @@ var cuttingRope = function (n) {
 > 乘积最大即 n >= 5 时，尽可能的多的把绳子长度剪为 3；n = 4 时，把绳子剪为两个长度为 2
 
 ```js
-var cuttingRope = function (n) {};
+var cuttingRope = function (n) {
+  if (n === 2) return 1;
+  if (n === 3) return 2;
+  if (n <= 3) return n - 1;
+  // 获取n分为几个3
+  let a = Math.floor(n / 3);
+  // 获取剩余长度，只有 0 、1 、2 三种情况
+  let b = n % 3;
+  // 表示全部长度都分为3
+  if (b == 0) return Math.pow(3, a);
+  // 表示剩余长度为4
+  if (b == 1) return Math.pow(3, a - 1) * 4;
+  // 表示剩余长度为2
+  return Math.pow(3, a) * 2;
+};
 ```
