@@ -20,6 +20,29 @@
 
 ### 代码实现
 
-```js
+#### 递归 + 记忆化实现
 
+#### 动态规划实现
+
+找出最优子结构，是很重要的一步
+
+- 状态定义：dp[i]，总金额为 i 时，最小的硬币数
+- 状态转移方程：f(i) = min( f(i), f(i-c) + 1 )
+  - 其中 c 表示满足最小硬币数时候，硬币的面值， 取值范围 0 ~ coins.length
+- 实现方式也是从下往上递推
+
+```js
+var coinChange = function (coins, amount) {
+  let dp = new Array(amount + 1).fill(amount + 1);
+  dp[0] = 0;
+  for (let i = 1; i <= amount; i++) {
+    for (let j = 0; j < coins.length; j++) {
+      // 防止越界
+      if (i - dp[i - coins[j]] >= 0) {
+        dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+      }
+    }
+  }
+  return dp[amount] > amount ? -1 : dp[amount];
+};
 ```
