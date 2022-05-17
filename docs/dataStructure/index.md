@@ -54,7 +54,7 @@
   - [验证二叉搜索树](./binaryTree/isValidBST.md)⭐⭐⭐
   - [二叉树&二叉搜索树最近公共祖先](./binaryTree/lowestCommonAncestor.md)⭐⭐⭐ 未完成
 - 二叉树深度
-  - [二叉树-最大深度](./binaryTree/maxDepth.md)⭐⭐ 未完成
+  - [二叉树-最大深度](./binaryTree/maxDepth.md)⭐⭐
   - [二叉树-最小深度](./binaryTree/minDepth.md)⭐⭐ 未完成
   - [平衡二叉树](./binaryTree/isBalanced.md)⭐⭐ 未完成
 
