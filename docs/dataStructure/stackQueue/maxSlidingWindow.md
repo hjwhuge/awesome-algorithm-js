@@ -10,6 +10,30 @@
 
 ### 代码实现
 
-```js
+#### 双端队列实现
 
+```js
+var maxSlidingWindow = function (nums, k) {
+  let res = [];
+  let q = [];
+  for (let i = 0; i < k; i++) {
+    while (q.length && nums[i] > nums[q[q.length - 1]]) {
+      q.pop();
+    }
+    q.push(i);
+  }
+  res.push(nums[q[0]]);
+  for (let i = k; i < nums.length; i++) {
+    while (q.length && nums[i] > nums[q[q.length - 1]]) {
+      q.pop();
+    }
+    q.push(i);
+    // 删除越界下标
+    while (q[0] <= i - k) {
+      q.shift();
+    }
+    res.push(nums[q[0]]);
+  }
+  return res;
+};
 ```
