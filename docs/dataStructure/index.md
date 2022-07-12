@@ -56,7 +56,7 @@
 - 二叉树深度
   - [二叉树-最大深度](./binaryTree/maxDepth.md)⭐⭐
   - [二叉树-最小深度](./binaryTree/minDepth.md)⭐⭐
-  - [平衡二叉树](./binaryTree/isBalanced.md)⭐⭐ 未完成
+  - [平衡二叉树](./binaryTree/isBalanced.md)⭐⭐
 
 ## 堆
 
