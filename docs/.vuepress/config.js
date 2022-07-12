@@ -2,6 +2,7 @@ module.exports = {
   base: "/",
   title: "awesome-algorithm-js",
   description: "数据结构与算法练习记录",
+  head: [[{ link: { rel: "icon", href: "/favicon.ico" } }]],
   themeConfig: {
     sidebarDepth: 3,
     lastUpdated: "上次更新",
