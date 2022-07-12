@@ -25,6 +25,22 @@
 var minDepth = function (root) {
   if (!root) {
     return 0;
+  }
+  if (!root.left) {
+    return minDepth(root.right) + 1;
+  }
+  if (!root.right) {
+    return minDepth(root.left) + 1;
+  }
+  const leftHeight = minDepth(root.left);
+  const rightHeight = minDepth(root.right);
+  // 左子节点或右子节点都不为空
+  return Math.min(leftHeight, rightHeight) + 1;
+};
+// or
+var minDepth = function (root) {
+  if (!root) {
+    return 0;
   } else {
     const leftHeight = minDepth(root.left);
     const rightHeight = minDepth(root.right);
