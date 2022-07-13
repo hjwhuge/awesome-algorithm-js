@@ -46,8 +46,8 @@
   - [二叉树的层序遍历](./binaryTree/levelOrder.md)⭐⭐⭐ 未完成
   - [重建二叉树](./binaryTree/build.md)⭐⭐⭐ 未完成
 - 二叉树的对称性
+  - [二叉树的镜像](./binaryTree/mirror.md)⭐⭐
   - [对称的二叉树](./binaryTree/symmetric.md)⭐⭐ 未完成
-  - [二叉树的镜像](./binaryTree/mirror.md)⭐⭐ 未完成
 - 二叉搜索树
   - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)⭐⭐⭐ 未完成
   - [二叉搜索树-后序遍历](./binaryTree/verifyPostorder.md)⭐⭐⭐ 未完成
