@@ -165,12 +165,12 @@ function getDataStructureSidebar() {
           link: "/dataStructure/binaryTree/build",
         },
         {
-          text: "对称的二叉树",
-          link: "/dataStructure/binaryTree/symmetric",
-        },
-        {
           text: "二叉树的镜像",
           link: "/dataStructure/binaryTree/mirror",
+        },
+        {
+          text: "对称的二叉树",
+          link: "/dataStructure/binaryTree/symmetric",
         },
         {
           text: "二叉搜索树-第 k 小的节点",
