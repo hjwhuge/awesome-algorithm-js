@@ -36,7 +36,7 @@
 
 #### 拓展训练题目
 
-- [括号生成](./generateParenthesis.md) 未完成
+- [括号生成](./generateParenthesis.md)
 - [单词接龙](https://leetcode-cn.com/problems/word-ladder/)
 - [员工的重要性](https://leetcode-cn.com/problems/employee-importance/)
 - [路径总和](https://leetcode-cn.com/problems/path-sum/)
