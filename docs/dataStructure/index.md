@@ -44,7 +44,7 @@
   - [二叉树-中序遍历](./binaryTree/inOrder.md)⭐⭐
   - [二叉树-后序遍历](./binaryTree/postOrder.md)⭐⭐
   - [二叉树的层序遍历](./binaryTree/levelOrder.md)⭐⭐⭐ 未完成
-  - [重建二叉树](./binaryTree/build.md)⭐⭐⭐ 未完成
+  - [重建二叉树](./binaryTree/build.md)⭐⭐⭐
 - 二叉树的对称性
   - [二叉树的镜像](./binaryTree/mirror.md)⭐⭐
   - [对称的二叉树](./binaryTree/symmetric.md)⭐⭐
