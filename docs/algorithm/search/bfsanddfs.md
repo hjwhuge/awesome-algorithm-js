@@ -14,6 +14,36 @@
 
 - [二叉树的层序遍历](../../dataStructure/binaryTree/levelOrder.md)
 
+#### 模板代码
+
+适用于树、图等数据结构
+
+```js
+function BFS(graph, start, end) {
+
+  let queue = [];
+  queue.push([start]);
+  // 标识该节点已经访问过
+  visited.set(start);
+
+  while (queue.length !== 0) {
+    // 取出队列第一个元素
+    const node = queue.shift();
+    // 标记该节点已经访问
+    visited.set(node);
+
+    // 处理该节点
+    for 节点 in node的所有相邻节点
+      // 找node后继节点、判断是否被访问
+      nodes = generate_related_nodes(node);
+
+      queue.push(nodes);
+
+    ...
+  }
+}
+```
+
 ### 深度优先搜索（DFS）
 
 > 深度优先搜索（Depth-First-Search），简称 DFS。最直观的例子就是“走迷宫”。
@@ -33,6 +63,27 @@
 
 - [二叉树的中序遍历](../../dataStructure/binaryTree/inOrder.md)
 - [二叉树的最大深度](../../dataStructure/binaryTree/maxDepth.md)
+
+#### 模板代码
+
+适用于树、图等数据结构
+
+```js
+function DFS(node, visited) {
+  // 标识该节点已经访问过
+  visited.set(node);
+
+  // 处理该节点
+  process(node);
+
+  for (let next_node of node.children) {
+    // 如果没有被访问，继续递归
+    if (!visited.get(next_node)) {
+      DFS(next_node, visited);
+    }
+  }
+}
+```
 
 #### 拓展训练题目
 
