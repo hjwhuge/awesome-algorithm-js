@@ -21,6 +21,29 @@
 
 ### 代码实现
 
-```js
+#### BFS
 
+```js
+var levelOrder = function (root) {
+  if (!root) return [];
+
+  let res = [];
+  let queue = [];
+
+  queue.push(root);
+
+  while (queue.length !== 0) {
+    let currentArr = [];
+    const len = queue.length;
+    for (let i = 0; i < len; i++) {
+      const node = queue.shift();
+      currentArr.push(node.val);
+      if (node.left) queue.push(node.left);
+      if (node.right) queue.push(node.right);
+    }
+    res.push(currentArr);
+  }
+
+  return res;
+};
 ```
