@@ -23,6 +23,34 @@
 
 #### BFS
 
+> 详细题解参考 [详细题解参考](https://leetcode.cn/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/) [来源](https://leetcode.cn/u/nettee/)
+
+> 通过 bfs 输出代码；输出结果 [[3,9,20,15,7]]
+
+```js
+var levelOrder = function (root) {
+  if (!root) return [];
+
+  let res = [];
+  let queue = [];
+
+  queue.push(root);
+
+  while (queue.length !== 0) {
+    const node = queue.shift();
+    if (node.left) queue.push(node.left);
+    if (node.right) queue.push(node.right);
+    res.push(node.value);
+  }
+
+  return [res];
+};
+```
+
+最终实现代码
+
+> 常规 bfs 输出并不是按层输出，我们需要稍微修改一下代码，在每一层遍历开始前，先记录队列中的结点数量 n（也就是这一层的结点数量），然后一口气处理完这一层的 n 个结点。
+
 ```js
 var levelOrder = function (root) {
   if (!root) return [];
