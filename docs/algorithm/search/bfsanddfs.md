@@ -33,11 +33,11 @@ function BFS(graph, start, end) {
     visited.set(node);
 
     // 处理该节点
-    for 节点 in node的所有相邻节点
-      // 找node后继节点、判断是否被访问
-      nodes = generate_related_nodes(node);
+    process(node);
+    // 找node后继节点、判断是否被访问
+    nodes = generate_related_nodes(node);
 
-      queue.push(nodes);
+    queue.push(nodes);
 
     ...
   }
