@@ -43,27 +43,26 @@ var postorderTraversal = function (root, array = []) {
 - 3.栈顶节点的右节点不为空且未被访问，以右孩子为目标节点，再依次执行 1、2、3
 
 ```js
-var inorderTraversal = function (root) {
+var postorderTraversal = function (root) {
   const result = [];
   const stack = [];
   let prev = null; // 标记上一个访问的节点
-  let current = root;
-  while (current || stack.length > 0) {
-    while (current) {
-      stack.push(current);
-      current = current.left;
+  while (root || stack.length) {
+    while (root) {
+      stack.push(root);
+      root = root.left;
     }
     // 获取当前节点
-    current = stack[stack.length - 1];
+    root = stack[stack.length - 1];
     // 右节点不存在或者右节点被访问过
-    if (!current.right || current.right == prev) {
-      current = stack.pop();
-      result.push(current.val);
-      prev = current;
+    if (!root.right || root.right == prev) {
+      root = stack.pop();
+      result.push(root.val);
+      prev = root;
       // 防止陷入进栈出栈循环
-      current = null;
+      root = null;
     } else {
-      current = current.right;
+      root = root.right;
     }
   }
   return result;

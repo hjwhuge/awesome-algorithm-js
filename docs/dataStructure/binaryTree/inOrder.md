@@ -46,15 +46,14 @@ var inorderTraversal = function (root, array = []) {
 var inorderTraversal = function (root) {
   const result = [];
   const stack = [];
-  let current = root;
-  while (current || stack.length > 0) {
-    while (current) {
-      stack.push(current);
-      current = current.left;
+  while (root || stack.length > 0) {
+    while (root) {
+      stack.push(root);
+      root = root.left;
     }
-    current = stack.pop();
-    result.push(current.val);
-    current = current.right;
+    root = stack.pop();
+    result.push(root.val);
+    root = root.right;
   }
   return result;
 };

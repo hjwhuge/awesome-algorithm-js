@@ -45,18 +45,17 @@ var preorderTraversal = function (root, array = []) {
 - 3.以右节点为目标节点，再依次执行 1、2、3
 
 ```js
-var inorderTraversal = function (root) {
+var preorderTraversal = function (root) {
   const result = [];
   const stack = [];
-  let current = root;
-  while (current || stack.length > 0) {
-    while (current) {
-      result.push(current.val);
-      stack.push(current);
-      current = current.left;
+  while (root || stack.length) {
+    while (root) {
+      result.push(root.val);
+      stack.push(root);
+      root = root.left;
     }
-    current = stack.pop();
-    current = current.right;
+    root = stack.pop();
+    root = root.right;
   }
   return result;
 };
