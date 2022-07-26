@@ -17,13 +17,26 @@
 - <img src="https://img.shields.io/badge/MEDIUM-yellow?style=flat-square"/>：中等
 - <img src="https://img.shields.io/badge/Hard-red?style=flat-square"/>：困难
 
-## 来源分类
+## 数据结构
 
-- [leetcode](/leetcode)
+- 链表
+- 栈和队列
+- 哈希表
+- 二叉树
+- 堆
+- 图
 
-## 链表
+## 常见算法
 
-## 二叉树
+- 递归和循环
+- 排序
+- BFS 和 DFS
+- 二分查找
+- 位运算
+- 贪心算法
+- 分治算法
+- 回溯算法
+- 动态规划
 
 ## 🌸 感谢
 
