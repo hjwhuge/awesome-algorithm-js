@@ -21,8 +21,6 @@
 
 - [leetcode](/leetcode)
 
-## JavaScript 专题-待添加
-
 ## 链表
 
 ## 二叉树
