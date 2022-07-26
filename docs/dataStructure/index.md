@@ -49,7 +49,7 @@
   - [二叉树的镜像](./binaryTree/mirror.md)⭐⭐
   - [对称的二叉树](./binaryTree/symmetric.md)⭐⭐
 - 二叉搜索树
-  - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)⭐⭐⭐ 未完成
+  - [二叉搜索树-第 k 小的节点](./binaryTree/kthSmallest.md)⭐⭐⭐
   - [二叉搜索树-后序遍历](./binaryTree/verifyPostorder.md)⭐⭐⭐ 未完成
   - [验证二叉搜索树](./binaryTree/isValidBST.md)⭐⭐⭐
   - [二叉树&二叉搜索树最近公共祖先](./binaryTree/lowestCommonAncestor.md)⭐⭐⭐ 未完成
