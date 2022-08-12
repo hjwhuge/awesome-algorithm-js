@@ -14,7 +14,7 @@
 - [求链表的中间结点](./linkedList/middleNode.md)⭐⭐
 - [删除链表倒数第 n 个结点](./linkedList/removeNthFromEnd.md)⭐⭐⭐
 - [链表交换相邻元素](./linkedList/swapPairs.md)⭐⭐⭐
-- [K 个一组翻转链表](./linkedList/reverseKGroup.md)⭐⭐⭐⭐ 未完成
+- [K 个一组翻转链表](./linkedList/reverseKGroup.md)⭐⭐⭐⭐
 
 ## 栈和队列
 
