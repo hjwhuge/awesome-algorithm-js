@@ -11,10 +11,61 @@
 ```js
 输入：m = 2, n = 3, k = 1
 输出：3
+
+输入：m = 3, n = 1, k = 0
+输出：1
 ```
 
 ### 代码实现
 
 ```js
+var movingCount = function (m, n, k) {
+  // 边界值判断
+  if (m <= 0 || n <= 0 || k < 0) {
+    return 0;
+  }
+  let visited = new Array(m * n).fill(false);
+  const count = movingCountCore(k, m, n, 0, 0, visited);
+  return count;
 
+  // 回溯主函数，判断当前格子是否满足要求，如果满足，接着判断周围四个格子的情况
+  function movingCountCore(k, rows, cols, row, col, visited) {
+    let count = 0;
+    if (check(k, rows, cols, row, col, visited)) {
+      visited[row * cols + col] = true;
+      count =
+        1 +
+        movingCountCore(k, rows, cols, row, col - 1, visited) +
+        movingCountCore(k, rows, cols, row, col + 1, visited) +
+        movingCountCore(k, rows, cols, row + 1, col, visited) +
+        movingCountCore(k, rows, cols, row - 1, col, visited);
+    }
+    return count;
+  }
+
+  // 用于判断单前位置是否满足题意
+  function check(k, rows, cols, row, col, visited) {
+    if (
+      row >= 0 &&
+      row < rows &&
+      col >= 0 &&
+      col < cols &&
+      getDigitSum(row) + getDigitSum(col) <= k &&
+      !visited[row * cols + col]
+    ) {
+      return true;
+    }
+    return false;
+  }
+
+  //   用于计算当前格子的位数和;
+  function getDigitSum(num) {
+    let sum = 0;
+    while (num > 0) {
+      sum += num % 10;
+      num = Math.trunc(num / 10);
+    }
+    return sum;
+  }
+};
 ```

@@ -52,7 +52,7 @@
 
 - [回溯算法-概览](./backTranking/intro.md)
 - [矩阵中的路径](./backTranking/exist.md)⭐⭐⭐
-- [机器人的运动范围](./backTranking/movingCount.md)⭐⭐⭐ 未完成
+- [机器人的运动范围](./backTranking/movingCount.md)⭐⭐⭐
 - [N 皇后](./backTranking/solveNQueens.md)⭐⭐⭐⭐
 - [N 皇后 II](./backTranking/totalNQueens.md)⭐⭐⭐⭐
 
