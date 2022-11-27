@@ -382,8 +382,56 @@ function getDesignPatternSidebar() {
       link: "/designPattern/singleton",
     },
     {
+      text: "策略模式",
+      link: "/designPattern/strategy",
+    },
+    {
+      text: "代理模式",
+      link: "/designPattern/proxy",
+    },
+    {
+      text: "迭代器模式",
+      link: "/designPattern/iterator",
+    },
+    {
       text: "发布-订阅模式",
       link: "/designPattern/pubSub",
+    },
+    {
+      text: "命令模式",
+      link: "/designPattern/command",
+    },
+    {
+      text: "组合模式",
+      link: "/designPattern/composite",
+    },
+    {
+      text: "模板方法模式",
+      link: "/designPattern/templateMethod",
+    },
+    {
+      text: "享元模式",
+      link: "/designPattern/flyweight",
+    },
+    {
+      text: "职责链模式",
+      link: "/designPattern/chainOfResponsibility",
+    },
+    {
+      text: "中介者模式",
+      link: "/designPattern/mediator",
+    },
+    {
+      text: "装饰者模式",
+      link: "/designPattern/decorator",
+    },
+    {
+      text: "状态模式",
+      link: "/designPattern/state",
+    },
+    {
+      text: "适配器模式",
+      link: "/designPattern/adapter",
     },
   ];
 }

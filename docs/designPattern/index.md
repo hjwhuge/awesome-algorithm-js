@@ -1,19 +1,19 @@
 #### JS 设计模式
 
 - [单例模式](./singleton.md)
-- 策略模式
-- 代理模式
-- 迭代器模式
+- [策略模式](./strategy.md)
+- [代理模式](./proxy.md)
+- [迭代器模式](./iterator.md)
 - [发布-订阅模式](./pubSub.md)
-- 命令模式
-- 组合模式
-- 模板方法模式
-- 享元模式
-- 职责链模式
-- 中介者模式
-- 装饰者模式
-- 状态模式
-- 适配器模
+- [命令模式](./command.md)
+- [组合模式](./composite.md)
+- [模板方法模式](./templateMethod.md)
+- [享元模式](./flyweight.md)
+- [职责链模式](./chainOfResponsibility.md)
+- [中介者模式](./mediator.md)
+- [装饰者模式](./decorator.md)
+- [状态模式](./state.md)
+- [适配器模](./adapter.md)
 
 说明
 

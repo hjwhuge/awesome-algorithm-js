@@ -13,7 +13,7 @@ var Singleton = function (name) {
 Singleton.prototype.getName = function () {
   console.log(this.name);
 };
-Singleton.getInstance = function () {
+Singleton.getInstance = function (name) {
   if (!this.instance) {
     this.instance = new Singleton(name);
   }
